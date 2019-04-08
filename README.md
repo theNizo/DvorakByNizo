@@ -1,6 +1,6 @@
 # Dvorak by Nizo v3.1
 
-Dies ist ein eigenes Tastaturlayout, welches auf Dvorak basiert. Für Deutsch angepasst. Cheatsheet: Die PNG Datei
+Dies ist ein eigenes Tastaturlayout, welches auf [Dvorak](https://de.wikipedia.org/wiki/Dvorak-Tastaturbelegung) basiert. Für Deutsch angepasst. Cheatsheet: Die PNG Datei
 
 Das Projekt habe ich irgendwann 2017-2018 gestartet und habe das Layout angepasst.
 
@@ -8,7 +8,7 @@ Ich verwende das in Kombination mit einer [Erweiterung](https://github.com/theNi
 
 ------
 
-This is a german Dvorak Keyboard Layout made by me. For a cheatsheet, see the PNG in the root
+This is a german [Dvorak](https://en.wikipedia.org/wiki/Dvorak_Simplified_Keyboard) Keyboard Layout made by me. For a cheatsheet, see the PNG in the root
 
 This project started somewhere between 2017-2018. It was improved over time.
 
