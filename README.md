@@ -8,7 +8,7 @@ Dies ist ein eigenes Tastaturlayout, welches auf [Dvorak](https://de.wikipedia.o
 
 Das Projekt habe ich irgendwann 2017-2018 gestartet und habe das Layout angepasst.
 
-**Warum nicht Dvorak Type II:** Ich habe ursprünglich das englische gelernt, bei dem allerdings keine Umlaute sind. Das Englische und Type II sind aber zu verschieden (~ 3x zwei Tasten vertauscht). Außerdem werden ein paar zeichen unnötig wiederholt (@ erreichbar mit AltGr+A und AltGr+Q). Dieses Layout soll einen einfachen Zugriff auf alle benötigten Zeichen geben und gleichzeitig so nahe wie möglich an US Dvorak sein.
+**Warum nicht Dvorak Type II:** Ich habe ursprünglich das englische gelernt, bei dem allerdings keine Umlaute sind. Das Englische und Type II sind aber zu verschieden (~ 3x zwei Tasten vertauscht). ß ist unpraktisch platziert. Außerdem werden ein paar zeichen unnötig wiederholt (@ gibt's 4 mal im AltGr Layer, was ich deppert finde.). Dieses Layout soll einen einfachen Zugriff auf alle benötigten Zeichen geben und gleichzeitig so nahe wie möglich an US Dvorak sein.
 
 Ich verwende das in Kombination mit einer [Erweiterung](https://github.com/theNizo/NizosUltimateKeyboard) (fast fertig) (Vorwarnung: wird ungewöhnlich, andere Tastaturen zu verwenden, ist aber nicht unmöglich).
 
@@ -20,7 +20,7 @@ This is a german [Dvorak](https://en.wikipedia.org/wiki/Dvorak_Simplified_Keyboa
 
 This project started somewhere between 2017-2018. It was improved over time.
 
-**Why not Dvorak Type II:** I originally learned the english Dvorak, which doesn't have umlauts. But Type II is just too different (they switched two keys. ~3 times.). Also, some letters are repeated unnecessarily (you can reach @ by AltGr+A and AltGr+Q). This layout should provide the most used symbols at comfortable places while being as near to US Dvorak as possible.
+**Why not Dvorak Type II:** I originally learned the english Dvorak, which doesn't have umlauts. But Type II is just too different (they switched two keys. ~3 times.). ß is placed at a bad position. Also, some letters are repeated unnecessarily (@ appears 4 times in the AltGr layer, which is pretty stupid if you ask me.). This layout should provide the most used symbols at comfortable places while being as near to US Dvorak as possible.
 
 I'm using it with an [extension](https://github.com/theNizo/NizosUltimateKeyboard) (mostly finished) (Note: It will get harder to use other keybeards if you get used to it)
 
