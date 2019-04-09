@@ -18,7 +18,7 @@ This is a german [Dvorak](https://en.wikipedia.org/wiki/Dvorak_Simplified_Keyboa
 
 This project started somewhere between 2017-2018. It was improved over time.
 
-**Why not Dvorak Type II:** I originally learned the english Dvorak, which doesn't have umlauts. But Type II is just too different (they switched two keys. 3 times.). Also, some letters are repeated unnecessarily (you can reach @ by AltGr+A and AltGr+Q). This layout should provide the most used symbols at comfortable places while being as near to US Dvorak as possible.
+**Why not Dvorak Type II:** I originally learned the english Dvorak, which doesn't have umlauts. But Type II is just too different (they switched two keys. ~3 times.). Also, some letters are repeated unnecessarily (you can reach @ by AltGr+A and AltGr+Q). This layout should provide the most used symbols at comfortable places while being as near to US Dvorak as possible.
 
 I'm using it with an [extension](https://github.com/theNizo/NizosUltimateKeyboard) (mostly finished) (Note: It will get harder to use other keybeards if you get used to it)
 
