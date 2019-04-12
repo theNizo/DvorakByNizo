@@ -18,7 +18,7 @@ Ich verwende das in Kombination mit einer [Erweiterung](https://github.com/theNi
 
 ------
 
-**Please make sure you can still type in your password after changing
+**Please make sure you can still type in your password after changing**
 
 This is a german [Dvorak](https://en.wikipedia.org/wiki/Dvorak_Simplified_Keyboard) Keyboard Layout made by me. For a cheatsheet, see the PNG in the root
 
