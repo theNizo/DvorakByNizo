@@ -4,6 +4,8 @@ made wit [MSKLC](https://www.microsoft.com/en-us/download/details.aspx?id=22339)
 
 # Dvorak by Nizo v3.1
 
+**Bitte sicherstellen, dass ihr euer Passwort nach dem Ändern noch eingeben könnt**
+
 Dies ist ein eigenes Tastaturlayout, welches auf [Dvorak](https://de.wikipedia.org/wiki/Dvorak-Tastaturbelegung) basiert. Für Deutsch angepasst. Cheatsheet: Die PNG Datei
 
 Das Projekt habe ich irgendwann 2017-2018 gestartet und habe das Layout angepasst.
@@ -15,6 +17,8 @@ Ich verwende das in Kombination mit einer [Erweiterung](https://github.com/theNi
 #### Falls jemand das ganze für Linux oder macOS (falls das überhaupt möglich ist) machen möchte, kann er das gerne unter dem Namen "Dvorak by Nizo (Ported by ...)" machen. Ich würde das auf jeden Fall hier hochladen.
 
 ------
+
+**Please make sure you can still type in your password after changing
 
 This is a german [Dvorak](https://en.wikipedia.org/wiki/Dvorak_Simplified_Keyboard) Keyboard Layout made by me. For a cheatsheet, see the PNG in the root
 
