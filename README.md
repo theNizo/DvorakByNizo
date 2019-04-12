@@ -1,14 +1,14 @@
-ndvv3 = **N**izo's **D**vorak **v3**.1
+ndvv3-2 = **N**izo's **D**vorak **v3.2**
 
 made wit [MSKLC](https://www.microsoft.com/en-us/download/details.aspx?id=22339)
 
-# Dvorak by Nizo v3.1
+# Dvorak by Nizo v3.2
 
 **Bitte sicherstellen, dass ihr euer Passwort nach dem Ändern noch eingeben könnt**
 
 Dies ist ein eigenes Tastaturlayout, welches auf [Dvorak](https://de.wikipedia.org/wiki/Dvorak-Tastaturbelegung) basiert. Für Deutsch angepasst. Cheatsheet: Die PNG Datei
 
-Das Projekt habe ich irgendwann 2017-2018 gestartet und habe das Layout angepasst.
+Das Projekt habe ich irgendwann 2017-2018 gestartet und habe das Layout über die Zeit angepasst.
 
 **Warum nicht Dvorak Type II:** Ich habe ursprünglich das englische gelernt, bei dem allerdings keine Umlaute sind. Das Englische und Type II sind aber zu verschieden (~ 3x zwei Tasten vertauscht). ß ist unpraktisch platziert. Außerdem werden ein paar zeichen unnötig wiederholt (@ gibt's 4 mal im AltGr Layer, was ich deppert finde.). Dvorak by Nizo soll einen einfachen Zugriff auf alle benötigten Zeichen geben und gleichzeitig so nahe wie möglich an US Dvorak sein.
 
