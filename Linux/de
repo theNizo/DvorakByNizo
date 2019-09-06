@@ -209,11 +209,7 @@ xkb_symbols "ro_nodeadkeys" {
     key <AC11> { [ adiaeresis,   Adiaeresis, abreve,       Abreve       ] };
 };
 
-// German Dvorak keymap by Thorsten Staerk (www.staerk.de/thorsten)
-// Have acute and grave as dead keys, tilde and circumflex alive as they are needed 
-// in many programming languages.
-// to use this keymap, use a 105-key-keyboard and the command setxkbmap -model pc105 -layout dvorak -variant de
-// source: http://www-lehre.informatik.uni-osnabrueck.de/~rfreund/dvorak.php
+//Dvorak by Nizo
 partial alphanumeric_keys
 xkb_symbols "dvorak" {
     include "us(dvorak)"
@@ -251,10 +247,10 @@ xkb_symbols "dvorak" {
     key <AC03> { [ e, E, bracketright, greater ] };
     key <AC04> { [ u, U, parenright, braceright ] };
     key <AC05> { [ i, I, percent ] };
-    key <AC07> { [ h, H, plus, NoSymbol, Left ] };
-    key <AC08> { [ t, T, asterisk, NoSymbol, Down ] };
-    key <AC09> { [ n, N, NoSymbol, NoSymbol, Up ] };
-    key <AC10> { [ s, S, NoSymbol, NoSymbol, Right ] };
+    key <AC07> { [ h, H, plus ] };
+    key <AC08> { [ t, T, asterisk ] };
+//    key <AC09> { [ n, N, NoSymbol, NoSymbol, Up ] };
+//    key <AC10> { [ s, S, NoSymbol, NoSymbol, Right ] };
     key <AC11> { [ ssharp, exclam ] };
     key <BKSL> { [ minus, underscore ] };
 
