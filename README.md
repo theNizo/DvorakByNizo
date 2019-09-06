@@ -1,10 +1,12 @@
 ndvv3-2 = **N**izo's **D**vorak **v3.2**
 
-made wit [MSKLC](https://www.microsoft.com/en-us/download/details.aspx?id=22339) (doesn't work in the latest Win10 version afaik. I have a Win7 VM just to run this program.)
+Windows version made wit [MSKLC](https://www.microsoft.com/en-us/download/details.aspx?id=22339) (doesn't work in the latest Win10 version afaik. I have a Win7 VM just to run this program.)
 
-# Dvorak by Nizo v3.2
+Linux version made by reverse engineering how xkb works and trying. [Here's my cheatsheet.](https://github.com/thenizo/xkb-symbols-reference)
 
-**Bitte sicherstellen, dass ihr euer Passwort nach dem Ändern noch eingeben könnt**
+# Dvorak by Nizo
+
+## Deutsch (english part below)
 
 Dies ist ein eigenes Tastaturlayout, welches auf [Dvorak](https://de.wikipedia.org/wiki/Dvorak-Tastaturbelegung) basiert. Für Deutsch angepasst. Cheatsheet: Die PNG Datei
 
@@ -14,13 +16,35 @@ Das Projekt habe ich irgendwann 2017-2018 gestartet und habe das Layout über di
 
 Ich verwende das in Kombination mit einer [Erweiterung](https://github.com/theNizo/NizosUltimateKeyboard) (Vorwarnung: wird ungewöhnlich, andere Tastaturen zu verwenden, ist aber nicht unmöglich).
 
-#### Falls jemand das ganze für Linux oder macOS (falls das überhaupt möglich ist) machen möchte, kann er das gerne unter dem Namen "Dvorak by Nizo (Ported by ...)" machen. Ich würde das auf jeden Fall hier hochladen.
+#### Falls jemand mir bei Linux helfen möchte, bitte ich darum, er wird in den credits erwähnt werden.
 
-Dieses Layout ist aufgrund des AltGr Layers nicht [damit](https://github.com/kentonv/dvorak-qwerty) kompatibel.
+#### Falls jemand das Layout für macOS porten möchte (falls das überhaupt möglich ist), würde es mich sehr freuen. Ich würde das dann in diesem Repo unter dem Namen "Dvorak by Nizo (ported by ...)" zur Verfügung stellen.
+
+### Installation
+
+#### Windows
+
+Das Layout ist aufgrund des AltGr Layers nicht [damit](https://github.com/kentonv/dvorak-qwerty) kompatibel.
+
+1. unter [releases](https://github.com/theNizo/DvorakByNizo-German/releases) die neueste version für Windows herunterladen
+2. Entpacken
+3. Im Ordner 'setup.exe' ausführen
+4. Neu Starten
+5. [Layout einstellen](https://www.windowscentral.com/how-change-your-keyboard-layout-windows-10) (hab leider nur auf Englisch was sinnvolles gefunden)
+6. Dvorak by Nizo verwenden.
+
+#### Linux
+
+Die Linux version ist im Moment eine Beta Version. Aktuell ersetzt sie Dvorak Type II, welches als "German (Dvorak)" angezeigt wird.
+
+1. unter [releases](https://github.com/theNizo/DvorakByNizo-German/releases) die neueste Linux version runterladen (ja, nur die eine datei. Nicht umbenennen)
+2. ein Backup von der originalen de Datei machen (`sudo cp /usr/shared/X11/xkb/symbols /where/to/save`, /where/to/save muss durch euren gewünschten Speicherpfad ersetzt werden. Ich kann nicht garantieren, dass der erste Pfad auf allen distributionen gleich ist. Ich habe das auf Ubuntu probiert)
+3. Folgenden Befehl ausführen: `sudo cp /path/to/file /usr/shared/X11/xkb/symbols` ausführen ("/path/to/file" ist logischerweise der Pfad zur Datei. Erneut kann ich nicht sicher sagen, dass der Pfad für alle Distributionen gleich ist.)
+4. Neu Starten
+5. Eventuell Layout einstellen
+6. Dvorak by Nizo verwenden
 
 ------
-
-**Please make sure you can still type in your password after changing**
 
 This is a german [Dvorak](https://en.wikipedia.org/wiki/Dvorak_Simplified_Keyboard) Keyboard Layout made by me. For a cheatsheet, see the PNG in the root
 
@@ -30,6 +54,30 @@ This project started somewhere between 2017-2018. It was improved over time.
 
 I'm using it with an [extension](https://github.com/theNizo/NizosUltimateKeyboard) (Note: It will get harder to use other keybeards if you get used to it)
 
-#### If someone wants to port this to Linux or macOS (if that's possible), feel free to do it with the name "Dvorak by Nizo (Ported by ...)". I'd love to upload it here.
+#### If someone wants to help me with the Linux port, I'd be happy to have some help. Of course you'll be mentioned in the credits.
 
-This keyboard is incompatible with [this](https://github.com/kentonv/dvorak-qwerty) because of the AltGr Layer
+#### If someone wants to port it to macOS (if that's possible), I would like to put it into this Repo with the name "Dvorak by Nizo (ported by ...)".
+
+### Installation
+
+#### Windows
+
+This layout is incommpatible with [this](https://github.com/kentonv/dvorak-qwerty), because of the AltGr Layer.
+
+1. Download the newest [releases](https://github.com/theNizo/DvorakByNizo-German/releases) for Windows
+2. Extract
+3. Run the 'setup.exe'
+4. Reboot
+5. [Set keyboard Layout](https://www.windowscentral.com/how-change-your-keyboard-layout-windows-10)
+6. Done
+
+#### Linux
+
+The Linux version is currently in beta stage. At the moment, it replaces Dvorak Type II, shown as "German (Dvorak)".
+
+1. Download the newest Linux [release](https://github.com/theNizo/DvorakByNizo-German/releases) (yes, it's just one file. Don't rename it.)
+2. Make a Backup of the original file (`sudo cp /usr/shared/X11/xkb/symbols /where/to/save`, /where/to/save must be replaced with the wished path. I can't guarantee that the first path is the same on every distribution. I tried it on Ubuntu)
+3. Run this command: `sudo cp /path/to/file /usr/shared/X11/xkb/symbols` ("/path/to/file" must be replaced with the path to the file. Again, I can't guarantee that the second path is the same on every distro).
+4. Reboot
+5. if not done yet, select Layout
+6. Done
