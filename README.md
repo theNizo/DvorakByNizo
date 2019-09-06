@@ -1,5 +1,3 @@
-ndvv3-2 = **N**izo's **D**vorak **v3.2**
-
 Windows version made wit [MSKLC](https://www.microsoft.com/en-us/download/details.aspx?id=22339) (doesn't work in the latest Win10 version afaik. I have a Win7 VM just to run this program.)
 
 Linux version made by reverse engineering how xkb works and trying. [Here's my cheatsheet.](https://github.com/thenizo/xkb-symbols-reference)
