@@ -42,6 +42,8 @@ Die Linux version ist im Moment eine Beta Version. Aktuell ersetzt sie Dvorak Ty
 5. Eventuell Layout einstellen
 6. Dvorak by Nizo verwenden
 
+EDIT: Ich habe gerade einen Bug gefunden, wodurch der Layer 5 nicht verwendet werden kann. Wenn man Gnome benutzt, muss man in den Gnome Tweaks -> Tastatur und Maus -> Zusätzliche Layout Optionen als Taste für den 5. Layer AltGr auswählen, dann geht es ohne Probleme.
+
 ------
 
 This is a german [Dvorak](https://en.wikipedia.org/wiki/Dvorak_Simplified_Keyboard) Keyboard Layout made by me. For a cheatsheet, see the PNG in the root
@@ -79,3 +81,5 @@ The Linux version is currently in beta stage. At the moment, it replaces Dvorak 
 4. Reboot
 5. if not done yet, select Layout
 6. Done
+
+EDIT: I just found a bug that doesn't let you use layer 5. if you use Gnome, go to Gnome Tweaks -> Keyboard & Mouse -> Additional Layout options -> key to choose the 5th level and select Right Alt.
