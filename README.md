@@ -33,7 +33,7 @@ Das Layout ist aufgrund des AltGr Layers nicht [damit](https://github.com/kenton
 
 #### Linux
 
-Die Linux version ist im Moment eine Beta Version. Aktuell ersetzt sie Dvorak Type II, welches als "German (Dvorak)" angezeigt wird.
+Die Linux version ist im Moment eine Beta Version. Aktuell ersetzt sie Neo2. In Zukunft soll das Layout als zusätzliche Tastatur verfügbar sein.
 
 1. unter [releases](https://github.com/theNizo/DvorakByNizo-German/releases) die neueste Linux version runterladen (ja, nur die eine datei. Nicht umbenennen)
 2. ein Backup von der originalen de Datei machen (`sudo cp /usr/shared/X11/xkb/symbols /where/to/save`, /where/to/save muss durch euren gewünschten Speicherpfad ersetzt werden. Ich kann nicht garantieren, dass der erste Pfad auf allen distributionen gleich ist. Ich habe das auf Ubuntu probiert)
@@ -73,7 +73,7 @@ This layout is incommpatible with [this](https://github.com/kentonv/dvorak-qwert
 
 #### Linux
 
-The Linux version is currently in beta stage. At the moment, it replaces Dvorak Type II, shown as "German (Dvorak)".
+The Linux version is currently in beta stage. At the moment, it replaces Neo2. In the future, it should be available as another keyboard, not replacing one.
 
 1. Download the newest Linux [release](https://github.com/theNizo/DvorakByNizo-German/releases) (yes, it's just one file. Don't rename it.)
 2. Make a Backup of the original file (`sudo cp /usr/shared/X11/xkb/symbols /where/to/save`, /where/to/save must be replaced with the wished path. I can't guarantee that the first path is the same on every distribution. I tried it on Ubuntu)
