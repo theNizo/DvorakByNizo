@@ -1,6 +1,6 @@
 Windows version made wit [MSKLC](https://www.microsoft.com/en-us/download/details.aspx?id=22339) (doesn't work in the latest Win10 version afaik. I have a Win7 VM just to run this program.)
 
-Linux version made by reverse engineering how xkb works and trying. [Here's my cheatsheet.](https://github.com/thenizo/xkb-symbols-reference)
+Linux version made by finding out how xkb works by reverse engineering and trying. [Here's a cheatsheet I made.](https://github.com/thenizo/xkb-symbols-reference)
 
 # Dvorak by Nizo
 
