@@ -12,7 +12,7 @@ Das Projekt habe ich irgendwann 2017-2018 gestartet und habe das Layout über di
 
 **Warum nicht Dvorak Type II:** Ich habe ursprünglich das englische gelernt, bei dem allerdings keine Umlaute sind. Das Englische und Type II sind aber zu verschieden (~ 3x zwei Tasten vertauscht). ß ist unpraktisch platziert. Außerdem werden ein paar zeichen unnötig wiederholt (@ gibt's 4 mal im AltGr Layer, was ich deppert finde.). Dvorak by Nizo soll einen einfachen Zugriff auf alle benötigten Zeichen geben und gleichzeitig so nahe wie möglich an US Dvorak sein.
 
-Ich verwende das in Kombination mit einer [Erweiterung](https://github.com/theNizo/NizosUltimateKeyboard) (Vorwarnung: wird ungewöhnlich, andere Tastaturen zu verwenden, ist aber nicht unmöglich).
+Ich verwende das unter Windows in Kombination mit einer [Erweiterung](https://github.com/theNizo/NizosUltimateKeyboard) (Vorwarnung: wird ungewöhnlich, andere Tastaturen zu verwenden, ist aber nicht unmöglich). Diese ist bei Linux bereits implementiert, kann aber ignoriert werden.
 
 #### Falls jemand mir bei Linux helfen möchte, bitte ich darum, er wird in den credits erwähnt werden.
 
@@ -42,7 +42,7 @@ Die Linux version ist im Moment eine Beta Version. Aktuell ersetzt sie Neo2. In 
 5. Eventuell Layout einstellen
 6. Dvorak by Nizo verwenden
 
-EDIT: Ich habe gerade einen Bug gefunden, wodurch der Layer 5 nicht verwendet werden kann. Wenn man Gnome benutzt, muss man in den Gnome Tweaks -> Tastatur und Maus -> Zusätzliche Layout Optionen als Taste für den 5. Layer AltGr auswählen, dann geht es ohne Probleme.
+EDIT: Ich habe gerade einen Bug gefunden, wodurch der Layer 5 nicht verwendet werden kann. Wenn man Gnome benutzt, muss man in den Gnome Tweaks -> Tastatur und Maus -> Zusätzliche Layout Optionen als Taste für den 5. Layer AltGr auswählen, dann geht es ohne Probleme. Caps als Layer 3 verwenden.
 
 ------
 
@@ -52,7 +52,7 @@ This project started somewhere between 2017-2018. It was improved over time.
 
 **Why not Dvorak Type II:** I originally learned the english Dvorak, which doesn't have umlauts. But Type II is just too different (they switched two keys. ~3 times.). ß is placed at a bad position. Also, some letters are repeated unnecessarily (@ appears 4 times in the AltGr layer, which is pretty stupid if you ask me.). Dvorak by Nizo should provide the most used symbols at comfortable places while being as near to US Dvorak as possible.
 
-I'm using it with an [extension](https://github.com/theNizo/NizosUltimateKeyboard) (Note: It will get harder to use other keybeards if you get used to it)
+On Windows, I'm using it with an [extension](https://github.com/theNizo/NizosUltimateKeyboard) (Note: It will get harder to use other keybeards if you get used to it). This is already included in Linux, but can be safely ignored if you wish.
 
 #### If someone wants to help me with the Linux port, I'd be happy to have some help. Of course you'll be mentioned in the credits.
 
