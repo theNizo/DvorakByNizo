@@ -46,6 +46,8 @@ EDIT: Ich habe gerade einen Bug gefunden, wodurch der Layer 5 nicht verwendet we
 
 ------
 
+## English
+
 This is a german [Dvorak](https://en.wikipedia.org/wiki/Dvorak_Simplified_Keyboard) Keyboard Layout made by me. For a cheatsheet, see the PNG in the root
 
 This project started somewhere between 2017-2018. It was improved over time.
