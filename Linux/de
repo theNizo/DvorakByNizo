@@ -360,8 +360,8 @@ xkb_symbols "neo_base" {
     key <AD02> { [ comma,                       semicolon,                       NoSymbol,                NoSymbol,                at,                   NoSymbol,                   NoSymbol,                NoSymbol                 ] };
     key <AD03> { [ period,                       colon,                       NoSymbol,                NoSymbol,                EuroSign,                   dollar,                   NoSymbol,                NoSymbol                 ] };
     key.type[Group1] = "EIGHT_LEVEL_ALPHABETIC_LEVEL_FIVE_LOCK";
-    key <AD04> { [ p,                       P,                       NoSymbol,                NoSymbol,                asciicircum,                   degree,                   NoSymbol,                NoSymbol                 ] };
-    key <AD05> { [ y,                       Y,                       NoSymbol,                NoSymbol,                equal,                   NoSymbol,                   NoSymbol,                NoSymbol                 ] };
+    key <AD04> { [ p,                       P,                       NoSymbol,                NoSymbol,                degree,                   dead_degree,                   NoSymbol,                NoSymbol                 ] };
+    key <AD05> { [ y,                       Y,                       NoSymbol,                NoSymbol,                equal,                   asciicircum,                   NoSymbol,                NoSymbol                 ] };
     key <AD06> { [ f,                       F,                       NoSymbol,                NoSymbol,                NoSymbol,                   NoSymbol,                   NoSymbol,                NoSymbol                 ] };
     key <AD07> { [ g,                       G,                       Home,                NoSymbol,                NoSymbol,                   NoSymbol,                   NoSymbol,                NoSymbol                 ] };
     key <AD08> { [ c,                       C,                       Prior,                NoSymbol,                asciitilde,                   NoSymbol,                   NoSymbol,                NoSymbol                 ] };
