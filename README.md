@@ -12,9 +12,9 @@ Das Projekt habe ich irgendwann 2017-2018 gestartet und habe das Layout über di
 
 **Warum nicht Dvorak Type II:** Ich habe ursprünglich das englische gelernt, bei dem allerdings keine Umlaute sind. Das Englische und Type II sind aber zu verschieden (~ 3x zwei Tasten vertauscht). ß ist unpraktisch platziert. Außerdem werden ein paar zeichen unnötig wiederholt (@ gibt's 4 mal im AltGr Layer, was ich deppert finde.). Dvorak by Nizo soll einen einfachen Zugriff auf alle benötigten Zeichen geben und gleichzeitig so nahe wie möglich an US Dvorak sein.
 
-Ich verwende das unter Windows in Kombination mit einer [Erweiterung](https://github.com/theNizo/NizosUltimateKeyboard) (Vorwarnung: wird ungewöhnlich, andere Tastaturen zu verwenden, ist aber nicht unmöglich). Diese ist bei Linux bereits implementiert, kann aber ignoriert werden.
+Ich verwende das unter Windows in Kombination mit einer [Erweiterung](https://github.com/theNizo/NizosUltimateKeyboard) (Vorwarnung: wird ungewöhnlich, andere Tastaturen zu verwenden, geht aber). Diese ist bei Linux bereits implementiert, kann aber ignoriert werden.
 
-#### Falls jemand mir bei Linux helfen möchte, bitte ich darum, er wird in den credits erwähnt werden.
+#### Falls jemand mir bei Linux helfen möchte, bitte ich darum, die Person wird erwähnt werden
 
 #### Falls jemand das Layout für macOS porten möchte (falls das überhaupt möglich ist), würde es mich sehr freuen. Ich würde das dann in diesem Repo unter dem Namen "Dvorak by Nizo (ported by ...)" zur Verfügung stellen.
 
@@ -56,7 +56,7 @@ This project started somewhere between 2017-2018. It was improved over time.
 
 On Windows, I'm using it with an [extension](https://github.com/theNizo/NizosUltimateKeyboard) (Note: It will get harder to use other keybeards if you get used to it). This is already included in Linux, but can be safely ignored if you wish.
 
-#### If someone wants to help me with the Linux port, I'd be happy to have some help. Of course you'll be mentioned in the credits.
+#### If someone wants to help me with the Linux port, I'd be happy to have some help. Of course you'll be mentioned.
 
 #### If someone wants to port it to macOS (if that's possible), I would like to put it into this Repo with the name "Dvorak by Nizo (ported by ...)".
 
