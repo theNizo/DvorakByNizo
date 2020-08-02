@@ -41,7 +41,7 @@ Für mein Layout braucht man allerdings eine andere Herangehensweise, als im FAQ
 2. gibt folgende Nummer: `2000:A0000C07`
 3. Powershell: [`Set-WinDefaultInputMethodOverride -InputTip "2000:A0000C07"`](https://docs.microsoft.com/en-us/powershell/module/international/set-windefaultinputmethodoverride?view=win10-ps)
 4. Das Layout kann man nun verwenden
-5. (Nur auf Englisch gestellt) Win+I -> Devices -> Typing -> Advanced Keyboard Settings -> Standard Layout auf "Dvorak by Nizo" setzen
+5. (Nur auf Englisch probiert) Win+I -> Devices -> Typing -> Advanced Keyboard Settings -> Standard Layout auf "Dvorak by Nizo" setzen
 6. Das Layout ist nun Standard
 7. Control Panel -> Region -> Administrative -> Copy Settings -> Tick "Welcome screen and system accounts" -> Ok
 8. Das Layout ist nun auf dem Login Bildschirm verwendbar.
