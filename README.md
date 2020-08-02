@@ -31,6 +31,21 @@ Das Layout ist aufgrund des AltGr Layers nicht [damit](https://github.com/kenton
 5. [Layout einstellen](https://www.windowscentral.com/how-change-your-keyboard-layout-windows-10) (hab leider nur auf Englisch was sinnvolles gefunden)
 6. Dvorak by Nizo verwenden.
 
+#### "Aber ich benutze Windows 10 Ameliorated"
+
+[AME](https://ameliorated.info/) hat den Nachteil, dass es kein Menü zum Einstellen der Tastatur-Layouts gibt. Im FAQ von AME wird empfohlen, die Powershell zu verwenden.
+
+Für mein Layout braucht man allerdings eine andere Herangehensweise, als im FAQ gezeigt. (Auf dem zur Verfügung gestellten 1903 Image getestet)
+
+1. Powershell: [`Get-WinDefaultInputMethodOverride`](https://docs.microsoft.com/en-us/powershell/module/international/get-windefaultinputmethodoverride?view=win10-ps)
+2. gibt folgende Nummer: `2000:A0000C07`
+3. Powershell: [`Set-WinDefaultInputMethodOverride -InputTip "2000:A0000C07"`](https://docs.microsoft.com/en-us/powershell/module/international/set-windefaultinputmethodoverride?view=win10-ps)
+4. Das Layout kann man nun verwenden
+5. (Nur auf Englisch gestellt) Win+I -> Devices -> Typing -> Advanced Keyboard Settings -> Standard Layout auf "Dvorak by Nizo" setzen
+6. Das Layout ist nun Standard
+7. Control Panel -> Region -> Administrative -> Copy Settings -> Tick "Welcome screen and system accounts" -> Ok
+8. Das Layout ist nun auf dem Login Bildschirm verwendbar.
+
 #### Linux
 
 Die Linux version ist im Moment eine Beta Version. Aktuell ersetzt sie Neo2. In Zukunft soll das Layout als zusätzliche Tastatur verfügbar sein.
@@ -72,6 +87,21 @@ This layout is incommpatible with [this](https://github.com/kentonv/dvorak-qwert
 4. Reboot
 5. [Set keyboard Layout](https://www.windowscentral.com/how-change-your-keyboard-layout-windows-10)
 6. Done
+
+#### "But I'm using Windows 10 Ameliorated"
+
+[AME](https://ameliorated.info/) has the disadvantage of not having an interface for selecting an input method. The FAQ of AME recommends to do it with Powershell.
+
+For my layout, you need a different approach than shown in the FAQ. (Tested on the downloadable 1903 image)
+
+1. Powershell: [`Get-WinDefaultInputMethodOverride`](https://docs.microsoft.com/en-us/powershell/module/international/get-windefaultinputmethodoverride?view=win10-ps)
+2. gives you this number: `2000:A0000C07`
+3. Powershell: [`Set-WinDefaultInputMethodOverride -InputTip "2000:A0000C07"`](https://docs.microsoft.com/en-us/powershell/module/international/set-windefaultinputmethodoverride?view=win10-ps)
+4. You can now use the layout
+5. Win+I -> Devices -> Typing -> Advanced Keyboard Settings -> Set the default layout to "Dvorak by Nizo"
+6. The layout is now the default one.
+7. Control Panel -> Region -> Administrative -> Copy Settings -> Tick "Welcome screen and system accounts" -> Ok
+8. The Layout is now available on the login screen.
 
 #### Linux
 
