@@ -37,7 +37,7 @@ Das Layout ist aufgrund des AltGr Layers nicht [damit](https://github.com/kenton
 
 Für mein Layout braucht man allerdings eine andere Herangehensweise, als im FAQ gezeigt. (Auf dem zur Verfügung gestellten 1903 Image getestet)
 
-1. Powershell: [`Get-WinDefaultInputMethodOverride`](https://docs.microsoft.com/en-us/powershell/module/international/get-windefaultinputmethodoverride?view=win10-ps)
+1. Auf einer normalen Windows Installation (nicht AME) folgenden Powershell Befehl ausführen: [`Get-WinDefaultInputMethodOverride`](https://docs.microsoft.com/en-us/powershell/module/international/get-windefaultinputmethodoverride?view=win10-ps)
 2. gibt folgende Nummer: `2000:A0000C07`
 3. Powershell: [`Set-WinDefaultInputMethodOverride -InputTip "2000:A0000C07"`](https://docs.microsoft.com/en-us/powershell/module/international/set-windefaultinputmethodoverride?view=win10-ps)
 4. Das Layout kann man nun verwenden
@@ -94,7 +94,7 @@ This layout is incommpatible with [this](https://github.com/kentonv/dvorak-qwert
 
 For my layout, you need a different approach than shown in the FAQ. (Tested on the downloadable 1903 image)
 
-1. Powershell: [`Get-WinDefaultInputMethodOverride`](https://docs.microsoft.com/en-us/powershell/module/international/get-windefaultinputmethodoverride?view=win10-ps)
+1. On a default Windows installation (not AME) with Dvorak by Nizo set to default, execute in Powershell: [`Get-WinDefaultInputMethodOverride`](https://docs.microsoft.com/en-us/powershell/module/international/get-windefaultinputmethodoverride?view=win10-ps)
 2. gives you this number: `2000:A0000C07`
 3. Powershell: [`Set-WinDefaultInputMethodOverride -InputTip "2000:A0000C07"`](https://docs.microsoft.com/en-us/powershell/module/international/set-windefaultinputmethodoverride?view=win10-ps)
 4. You can now use the layout
