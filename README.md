@@ -14,7 +14,7 @@ Das Projekt habe ich irgendwann 2017-2018 gestartet und habe das Layout über di
 
 Ich verwende das unter Windows in Kombination mit einer [Erweiterung](https://github.com/theNizo/NizosUltimateKeyboard) (Vorwarnung: wird ungewöhnlich, andere Tastaturen zu verwenden, geht aber). Diese ist bei Linux bereits implementiert, kann aber ignoriert werden.
 
-#### Falls jemand mir bei Linux helfen möchte, bitte ich darum, die Person wird erwähnt werden
+#### Falls jemand mir bei Linux helfen möchte, bitte ich darum. Die Person wird selbstverständlich erwähnt werden.
 
 #### Falls jemand das Layout für macOS porten möchte (falls das überhaupt möglich ist), würde es mich sehr freuen. Ich würde das dann in diesem Repo unter dem Namen "Dvorak by Nizo (ported by ...)" zur Verfügung stellen.
 
