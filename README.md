@@ -48,9 +48,9 @@ Für mein Layout braucht man allerdings eine andere Herangehensweise, als im FAQ
 
 #### Linux
 
-Die Linux version ist im Moment eine Beta Version. Aktuell ersetzt sie Neo2. In Zukunft soll das Layout als zusätzliche Tastatur verfügbar sein.
+Am liebsten würde ich in den Einstallungen einen neuen Eintrag mit dem Titel "Dvorak by Nizo" haben, aber ich weiß nicht, wie ich das hinbekomme. Deshalb sind die aktuellen Versionen für mich Beta Versionen. Aktuell ersetzt das Layout das deutsche Dvorak Layout, welches ich, ehrlich gesagt, sowieso furchtbar finde.
 
-1. unter [releases](https://github.com/theNizo/DvorakByNizo-German/releases) die neueste Linux version runterladen (ja, nur die eine datei. Nicht umbenennen)
+1. unter [releases](https://github.com/theNizo/DvorakByNizo-German/releases) die neueste Linux version runterladen (ja, nur die eine Datei. Nicht umbenennen)
 2. ein Backup von der originalen de Datei machen (`sudo cp /usr/shared/X11/xkb/symbols /where/to/save`, /where/to/save muss durch euren gewünschten Speicherpfad ersetzt werden. Ich kann nicht garantieren, dass der erste Pfad auf allen distributionen gleich ist. Ich habe das auf Ubuntu probiert)
 3. Folgenden Befehl ausführen: `sudo cp /path/to/file /usr/shared/X11/xkb/symbols` ausführen ("/path/to/file" ist logischerweise der Pfad zur Datei. Erneut kann ich nicht sicher sagen, dass der Pfad für alle Distributionen gleich ist.)
 4. Neu Starten
@@ -105,7 +105,7 @@ For my layout, you need a different approach than shown in the FAQ. (Tested on t
 
 #### Linux
 
-The Linux version is currently in beta stage. At the moment, it replaces Neo2. In the future, it should be available as another keyboard, not replacing one.
+I'd like to have my own entry in the settings menu, called "Dvorak by Nizo", but as of now, I don't know how to do that. That's why I declare the current versions as beta versions. The layout currently replaces the german Dvorak variant which I think is horrible anyway.
 
 1. Download the newest Linux [release](https://github.com/theNizo/DvorakByNizo-German/releases) (yes, it's just one file. Don't rename it.)
 2. Make a Backup of the original file (`sudo cp /usr/shared/X11/xkb/symbols /where/to/save`, /where/to/save must be replaced with the wished path. I can't guarantee that the first path is the same on every distribution. I tried it on Ubuntu)
