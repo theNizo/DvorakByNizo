@@ -51,7 +51,7 @@ xkb_symbols "dvorak" {
     key <AC11> { [ ssharp, exclam, Delete ] };
 
     key <LSGT> { [ adiaeresis, Adiaeresis, NoSymbol, NoSymbol, aring, Aring ] };
-    key <AB01> { [ Odiaeresis, Odiaeresis, NoSymbol, NoSymbol, acute, grave ] };
+    key <AB01> { [ odiaeresis, Odiaeresis, NoSymbol, NoSymbol, acute, grave ] };
     key <AB02> { [ q, Q, NoSymbol, NoSymbol, dead_acute, dead_grave ] };
     key <AB03> { [ j, J, NoSymbol, NoSymbol, bar, brokenbar ] };
     key <AB04> { [ k, K, NoSymbol, NoSymbol, backslash ] };
