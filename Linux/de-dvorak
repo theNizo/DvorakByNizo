@@ -24,7 +24,7 @@ xkb_symbols "dvorak" {
     key <AD03> { [ period, colon, NoSymbol, NoSymbol, EuroSign, dollar ] };
     
     key.type[Group1] = "EIGHT_LEVEL_ALPHABETIC_LEVEL_FIVE_LOCK";
-    key <AD01> { [ udiaresis, Udiaresis, NoSymbol, NoSymbol, apostrophe, quotedbl ] };
+    key <AD01> { [ udiaeresis, Udiaeresis, NoSymbol, NoSymbol, apostrophe, quotedbl ] };
     key <AD04> { [ p, P, NoSymbol, NoSymbol, asciicircum, degree ] };
     key <AD05> { [ y, Y, NoSymbol, NoSymbol, equal, numbersign ] };
     key <AD06> { [ f, F ] };
@@ -50,8 +50,8 @@ xkb_symbols "dvorak" {
     key <AC10> { [ s, S, Right, NoSymbol ] };
     key <AC11> { [ ssharp, exclam, Delete ] };
 
-    key <LSGT> { [ adiaresis, Adiaresis, NoSymbol, NoSymbol, aring, Aring ] };
-    key <AB01> { [ Odiaresis, Odiaresis, NoSymbol, NoSymbol, acute, grave ] };
+    key <LSGT> { [ adiaeresis, Adiaeresis, NoSymbol, NoSymbol, aring, Aring ] };
+    key <AB01> { [ Odiaeresis, Odiaeresis, NoSymbol, NoSymbol, acute, grave ] };
     key <AB02> { [ q, Q, NoSymbol, NoSymbol, dead_acute, dead_grave ] };
     key <AB03> { [ j, J, NoSymbol, NoSymbol, bar, brokenbar ] };
     key <AB04> { [ k, K, NoSymbol, NoSymbol, backslash ] };
