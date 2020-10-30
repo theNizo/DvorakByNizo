@@ -50,12 +50,9 @@ Für mein Layout braucht man allerdings eine andere Herangehensweise, als im FAQ
 
 Am liebsten würde ich in den Einstallungen einen neuen Eintrag mit dem Titel "Dvorak by Nizo" haben, aber ich weiß nicht, wie ich das hinbekomme. Deshalb sind die aktuellen Versionen für mich Beta Versionen. Aktuell ersetzt das Layout das deutsche Dvorak Layout, welches ich, ehrlich gesagt, sowieso furchtbar finde.
 
-1. unter [releases](https://github.com/theNizo/DvorakByNizo-German/releases) die neueste Linux version runterladen (ja, nur die eine Datei. Nicht umbenennen)
-2. ein Backup von der originalen de Datei machen (`sudo cp /usr/shared/X11/xkb/symbols /where/to/save`, /where/to/save muss durch euren gewünschten Speicherpfad ersetzt werden. Ich kann nicht garantieren, dass der erste Pfad auf allen distributionen gleich ist. Ich habe das auf Ubuntu probiert)
-3. Folgenden Befehl ausführen: `sudo cp /path/to/file /usr/shared/X11/xkb/symbols` ausführen ("/path/to/file" ist logischerweise der Pfad zur Datei. Erneut kann ich nicht sicher sagen, dass der Pfad für alle Distributionen gleich ist.)
-4. Neu Starten
-5. Eventuell Layout einstellen
-6. Dvorak by Nizo verwenden
+1. Folgenden Befehl ausführen: `wget https://raw.githubusercontent.com/theNizo/DvorakByNizo-German/master/install-dvorakbynizo.sh | sudo bash`
+2. Eventuell Layout einstellen
+3. Dvorak by Nizo verwenden
 
 EDIT: Ich habe gerade einen Bug gefunden, wodurch der Layer 5 nicht verwendet werden kann. Wenn man Gnome benutzt, muss man in den Gnome Tweaks -> Tastatur und Maus -> Zusätzliche Layout Optionen als Taste für den 5. Layer AltGr auswählen, dann geht es ohne Probleme. Caps als Layer 3 verwenden.
 
@@ -107,11 +104,8 @@ For my layout, you need a different approach than shown in the FAQ. (Tested on t
 
 I'd like to have my own entry in the settings menu, called "Dvorak by Nizo", but as of now, I don't know how to do that. That's why I declare the current versions as beta versions. The layout currently replaces the german Dvorak variant which I think is horrible anyway.
 
-1. Download the newest Linux [release](https://github.com/theNizo/DvorakByNizo-German/releases) (yes, it's just one file. Don't rename it.)
-2. Make a Backup of the original file (`sudo cp /usr/shared/X11/xkb/symbols /where/to/save`, /where/to/save must be replaced with the wished path. I can't guarantee that the first path is the same on every distribution. I tried it on Ubuntu)
-3. Run this command: `sudo cp /path/to/file /usr/shared/X11/xkb/symbols` ("/path/to/file" must be replaced with the path to the file. Again, I can't guarantee that the second path is the same on every distro).
-4. Reboot
+1. Run this command: `wget https://raw.githubusercontent.com/theNizo/DvorakByNizo-German/master/install-dvorakbynizo.sh | sudo bash`
 5. if not done yet, select Layout
-6. Done
+6. Profit
 
 EDIT: I just found a bug that doesn't let you use layer 5. if you use Gnome, go to Gnome Tweaks -> Keyboard & Mouse -> Additional Layout options -> key to choose the 5th level and select Right Alt.
