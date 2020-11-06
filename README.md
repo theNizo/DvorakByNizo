@@ -50,6 +50,8 @@ Für mein Layout braucht man allerdings eine andere Herangehensweise, als im FAQ
 
 Am liebsten würde ich in den Einstallungen einen neuen Eintrag mit dem Titel "Dvorak by Nizo" haben, aber ich weiß nicht, wie ich das hinbekomme. Deshalb sind die aktuellen Versionen für mich Beta Versionen. Aktuell ersetzt das Layout das deutsche Dvorak Layout, welches ich, ehrlich gesagt, sowieso furchtbar finde.
 
+Die aktuellste Version der Datei wird nicht mehr in den Releases veröffentlicht.
+
 1. Folgende Befehle ausführen:
 ```
 wget https://raw.githubusercontent.com/theNizo/DvorakByNizo-German/master/install-dvorakbynizo.sh
@@ -111,7 +113,7 @@ For my layout, you need a different approach than shown in the FAQ. (Tested on t
 
 I'd like to have my own entry in the settings menu, called "Dvorak by Nizo", but as of now, I don't know how to do that. That's why I declare the current versions as beta versions. The layout currently replaces the german Dvorak variant which I think is horrible anyway.
 
-
+The newest version of the file won't be showing up in the Releases.
 
 1. Run the following commands:
 ```
