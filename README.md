@@ -50,9 +50,16 @@ Für mein Layout braucht man allerdings eine andere Herangehensweise, als im FAQ
 
 Am liebsten würde ich in den Einstallungen einen neuen Eintrag mit dem Titel "Dvorak by Nizo" haben, aber ich weiß nicht, wie ich das hinbekomme. Deshalb sind die aktuellen Versionen für mich Beta Versionen. Aktuell ersetzt das Layout das deutsche Dvorak Layout, welches ich, ehrlich gesagt, sowieso furchtbar finde.
 
-1. Folgenden Befehl ausführen: `wget https://raw.githubusercontent.com/theNizo/DvorakByNizo-German/master/install-dvorakbynizo.sh | sudo bash`
-2. Eventuell Layout einstellen
-3. Dvorak by Nizo verwenden
+1. Folgende Befehle ausführen:
+```
+wget https://raw.githubusercontent.com/theNizo/DvorakByNizo-German/master/install-dvorakbynizo.sh
+chmod u+x install-dvorakbynizo.sh
+sudo ./install-dvorakbynizo.sh
+```
+2. Erneut einloggen
+3. Sofern das Skript das erste Mal gestartet wurde, sollte man das Backup (.bak) woanders hinlegen, da es ansonsten überschrieben wird.
+4. Eventuell Layout einstellen
+5. Dvorak by Nizo verwenden
 
 EDIT: Ich habe gerade einen Bug gefunden, wodurch der Layer 5 nicht verwendet werden kann. Wenn man Gnome benutzt, muss man in den Gnome Tweaks -> Tastatur und Maus -> Zusätzliche Layout Optionen als Taste für den 5. Layer AltGr auswählen, dann geht es ohne Probleme. Caps als Layer 3 verwenden.
 
@@ -104,7 +111,16 @@ For my layout, you need a different approach than shown in the FAQ. (Tested on t
 
 I'd like to have my own entry in the settings menu, called "Dvorak by Nizo", but as of now, I don't know how to do that. That's why I declare the current versions as beta versions. The layout currently replaces the german Dvorak variant which I think is horrible anyway.
 
-1. Run this command: `wget https://raw.githubusercontent.com/theNizo/DvorakByNizo-German/master/install-dvorakbynizo.sh | sudo bash`
+
+
+1. Run the following commands:
+```
+wget https://raw.githubusercontent.com/theNizo/DvorakByNizo-German/master/install-dvorakbynizo.sh
+chmod u+x install-dvorakbynizo.sh
+sudo ./install-dvorakbynizo.sh
+```
+2. Log in again
+3. If it's the first time you run it, please move the backup (.bak) somewhere else, or it will be overwritten.
 5. if not done yet, select Layout
 6. Profit
 
