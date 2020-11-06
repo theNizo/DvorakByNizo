@@ -1,7 +1,10 @@
+// Dvorak by Nizo
+// A german dvorak variant that's as close to the original as possible while having german characters and providing easy access to special characters or navigation.
+// Intended for EU keyboards (ISO 105)
 partial alphanumeric_keys modifier_keys
 xkb_symbols "dvorak" {
 
-    name[Group1]="German (Dvorak by Nizo)";
+    name[Group1]="German (Dvorak)";
 
     key.type[Group1] = "EIGHT_LEVEL_LEVEL_FIVE_LOCK";
 
