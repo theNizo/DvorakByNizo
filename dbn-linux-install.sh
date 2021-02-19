@@ -13,6 +13,9 @@ clear
 # Choose the installer language #
 #################################
 cat << language
+
+DO NOT USE THIS SCRIPT IN THE CURRENT STATE. IT IS NOT FINISHED!!
+
 [1] Deutsch (not finished yet)
 [2] English
 [Q] Quit
