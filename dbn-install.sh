@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Create the working directory, if it doesn't exist, then cd into it
-if [ ! -d ~/DvorakByNizo ]
+if [ ! -d ~/.DvorakByNizo ]
 then
 	mkdir ~/.DvorakByNizo
 fi
@@ -251,6 +251,7 @@ else
 			echo "bak: create backup"
 			echo
 			exit 0
+		esac
 	done
 fi
 
