@@ -1,0 +1,74 @@
+// Dvorak by Nizo
+// A german Dvorak variant that's as close to the original as possible while having german characters and providing easy access to special characters or navigation.
+// Intended for EU keyboards (ISO), the ones with the EU Enter and the shorter left Shift key.
+// This Version doesn't have an FN layer
+partial alphanumeric_keys modifier_keys
+xkb_symbols "dvorak" {
+
+    name[Group1]="German (Dvorak)";
+
+    //key.type[Group1] = "EIGHT_LEVEL_LEVEL_FIVE_LOCK";
+
+    key <TLDE> { [ asciicircum, degree ] };
+
+    key <AE01> { [ 1, section ] };
+    key <AE02> { [ 2, twosuperior ] };
+    key <AE03> { [ 3, threesuperior ] };
+    key <AE04> { [ 4, numbersign ] };
+    key <AE05> { [ 5, at ] };
+    key <AE06> { [ 6, ampersand ] };
+    key <AE07> { [ 7, asciitilde ] };
+    key <AE08> { [ 8, backslash ] };
+    key <AE09> { [ 9, parenleft ] };
+    key <AE10> { [ 0, parenright ] };
+    key <AE11> { [ plus, asterisk ] };
+    key <AE12> { [ equal, percent ] };
+    
+    key <AD02> { [ comma, semicolon, at ] };
+    key <AD03> { [ period, colon, EuroSign, dollar ] };
+    
+    //key.type[Group1] = "EIGHT_LEVEL_ALPHABETIC_LEVEL_FIVE_LOCK";
+    key <AD01> { [ udiaeresis, Udiaeresis, NoSymbol, NoSymbol, apostrophe, quotedbl ] };
+    key <AD04> { [ p, P, asciicircum, degree ] };
+    key <AD05> { [ y, Y, equal, numbersign ] };
+    key <AD06> { [ f, F ] };
+    key <AD07> { [ g, G ] };
+    key <AD08> { [ c, C, asciitilde] };
+    key <AD09> { [ r, R ] };
+    key <AD10> { [ l, L ] };
+    
+    //key.type[Group1] = "EIGHT_LEVEL_LEVEL_FIVE_LOCK";
+    key <AD11> { [ slash, question ] };
+    key <AD12> { [ apostrophe, quotedbl ] };
+
+    //key.type[Group1] = "EIGHT_LEVEL_ALPHABETIC_LEVEL_FIVE_LOCK";
+    key <AC01> { [ a, A, parenleft, braceleft ] };
+    key <AC02> { [ o, O, bracketleft, less ] };
+    key <AC03> { [ e, E, bracketright, greater ] };
+    key <AC04> { [ u, U, parenright, braceright ] };
+    key <AC05> { [ i, I, percent ] };
+    key <AC06> { [ d, D ] };
+    key <AC07> { [ h, H, plus ] };
+    key <AC08> { [ t, T, asterisk ] };
+    key <AC09> { [ n, N ] };
+    key <AC10> { [ s, S ] };
+    key <AC11> { [ ssharp, exclam ] };
+
+    key <LSGT> { [ adiaeresis, Adiaeresis, aring, Aring ] };
+    key <AB01> { [ odiaeresis, Odiaeresis, acute, grave ] };
+    key <AB02> { [ q, Q, dead_acute, dead_grave ] };
+    key <AB03> { [ j, J, bar, brokenbar ] };
+    key <AB04> { [ k, K, backslash ] };
+    key <AB05> { [ x, X, ampersand ] };
+    key <AB06> { [ b, B ] };
+    key <AB07> { [ m, M ] };
+    key <AB08> { [ w, W ] };
+    key <AB09> { [ v, V ] };
+    key <AB10> { [ z, Z ] };
+
+    //key.type[Group1] = "EIGHT_LEVEL_LEVEL_FIVE_LOCK";
+    key <BKSL> { [ minus, underscore ] };
+
+    //include "shift(both_capslock)"
+    include "level3(ralt_switch_lock)"
+};
