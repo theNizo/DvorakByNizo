@@ -320,3 +320,4 @@ xkb_symbols "ro_nodeadkeys" {
     key <AC02> { [         s,    S,              U0219,        U0218    ] };
     key <AC11> { [ adiaeresis,   Adiaeresis,    abreve,       Abreve    ] };
 };
+
