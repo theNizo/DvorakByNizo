@@ -58,7 +58,7 @@ Die aktuellste Version wird nicht mehr als Release veröffentlicht
 
 1. Folgende Befehle ausführen:
 ```
-wget https://raw.githubusercontent.com/theNizo/DvorakByNizo-German/master/dbn-install.sh && chmod +x dbn-linux-install.sh && ./dbn-linux-install.sh && rm dbn-linux-install.sh
+wget https://raw.githubusercontent.com/theNizo/DvorakByNizo-German/master/dbn-install.sh && chmod +x dbn-install.sh && ./dbn-install.sh && rm dbn-install.sh
 ```
 2. (Optional) Backup woanders hinlegen. Das Skript warnt aber eh nächstes Mal.
 3. Aus- und wieder einloggen
@@ -122,7 +122,7 @@ The newest version of the file won't be showing up in the Releases.
 
 1. Run the following commands:
 ```
-wget https://raw.githubusercontent.com/theNizo/DvorakByNizo-German/master/dbn-install.sh && chmod +x dbn-linux-install.sh && ./dbn-linux-install.sh && rm dbn-linux-install.sh
+wget https://raw.githubusercontent.com/theNizo/DvorakByNizo-German/master/dbn-install.sh && chmod +x dbn-install.sh && ./dbn-install.sh && rm dbn-linux-install.sh
 ```
 2. (Optional) Move the backup somewhere else. The Script would warn you next time anyway.
 3. Log out and back in
