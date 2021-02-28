@@ -1,24 +1,3 @@
-
-partial alphanumeric_keys
-xkb_symbols "Sundeadkeys" {
-
-    // For naming consistency
-
-    include "de(basic)"
-
-};
-
-partial alphanumeric_keys
-xkb_symbols "sundeadkeys" {
-
-    // For naming consistency
-
-    include "de(Sundeadkeys)"
-
-    name[Group1]="German (Sun dead keys)";
-};
-
-
 // German Neo-Layout Version 2
 // adopted 2004 by Hanno Behrens <Hanno.Behrens@gmx.de>
 // inspired by Dvorak/de-ergo  http://www.goebel-consult.de/de-ergo/
@@ -227,7 +206,6 @@ xkb_symbols "mac" {
     key <AC09>	{ [         l,          L,           at       ]	};
     key <AC10>	{ [ odiaeresis, Odiaeresis,  dead_acute       ]	};
     key <AB06>	{ [         n,          N,   asciitilde       ]	};
-
 };
 
 partial alphanumeric_keys
@@ -509,7 +487,6 @@ xkb_symbols "tr" {
     key <AC02>  { [    s,      S,      U015F,  U015E   ] };
     key <AC05>  { [    g,      G,      U011F,  U011E   ] };
     key <AB03>  { [    c,      C,      U0E7,   U0C7    ] };
-
 };
 
 partial alphanumeric_keys
@@ -840,5 +817,4 @@ partial alphanumeric_keys
     name[Group1] = "German (Ladin)";
 
     key <AD10> { [ p, P, ediaeresis, Ediaeresis ] };
-
 };
