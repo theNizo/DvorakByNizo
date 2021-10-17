@@ -27,9 +27,6 @@ xkb_symbols "basic" {
     key <BKSL>	{ [numbersign, apostrophe, rightsinglequotemark,   dead_breve ]	};
     key <AB01>	{ [         y,          Y,       guillemotright,    U203A 	] };
     key <AB02>	{ [         x,          X,        guillemotleft,    U2039 	] };
-    key <AB04>	{ [         v,          V,   doublelowquotemark, singlelowquotemark ]	};
-    key <AB05>	{ [         b,          B,  leftdoublequotemark, leftsinglequotemark ] };
-    key <AB06>	{ [         n,          N, rightdoublequotemark, rightsinglequotemark ]	};
     key <AB08>  { [     comma,  semicolon,       periodcentered,     multiply	] };
     key <AB09>	{ [    period,      colon,                U2026,     division 	] };
     key <AB10>	{ [     minus, underscore,               endash,     emdash	] };
