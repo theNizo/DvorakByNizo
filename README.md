@@ -16,9 +16,9 @@ German Dvorak done properly
 
 # Warum nicht Dvorak Type II?
 
-* Ich habe die englische Version von Dvorak gelernt. Ein paar Buchstaben sind vertauscht: E-I, D-H, R-T; Z und L sind falsch.
-* @ ist 4x im AltGr Layer - Warum?
-*  ß ist unpraktisch platziert (Shift).
+* Ich habe die englische Version von Dvorak gelernt. Ein paar Buchstaben sind vertauscht: `E-I`, `D-H`, `R-T`; `Z` und `L` sind falsch.
+* `@` ist 4x im AltGr Layer - Warum?
+* `ß` ist unpraktisch platziert (Shift).
 
 # Aber was macht dieses Layout besser?
 

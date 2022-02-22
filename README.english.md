@@ -16,9 +16,9 @@ German Dvorak done properly
 
 # Why not Dvorak Type II?
 
-* I learned the english version. Some characters are switched: E-I, D-H, R-T; Z and L are wrong
-* @ is in the AltGr Layer 4x - Why?
-*  ß is placed inconveniently (Shift).
+* I learned the english version. Some characters are switched: `E-I`, `D-H`, `R-T`; `Z` and `L` are wrong
+* `@` is in the AltGr Layer 4x - Why?
+* `ß` is placed inconveniently (Shift).
 
 # But what does this layout do better?
 
