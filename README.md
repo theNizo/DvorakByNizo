@@ -90,15 +90,13 @@ Die ID des Layouts ist im Release angegeben. Ich werde als Beispiel-ID folgende 
 
 Control Panel -> Region -> Administrative -> Copy Settings -> "Welcome screen and system accounts" auswählen -> Ok
 
-### Fn Layer installieren (broken)
-
-[Mein Skript](https://github.com/theNizo/Nizo-Keyboard-Extension) funktioniert aktuell nicht, obwohl ich es in genau der Form in der Vergangenheit verwendet habe. Deshalb ist es nicht in diesem Repo. Ich benutze mittlerweile kein Windows mehr, also ist das eine niedrige Priorität für mich.
+### Fn Layer installieren
 
 Es ist in beiden Fällen ein AutoHotKey Skript, der erste Weg benötigt keine Installation von AutoHotKey.
 
 **Option 1:** .exe herunterladen
 
-**Option 2:** [AutoHotKey](https://www.autohotkey.com/) installieren und .ahk Skript herunterladen.
+**Option 2:** [AutoHotKey](https://www.autohotkey.com/) installieren und .ahk Skript herunterladen. Wenn AHK die Umlaute nicht erkennt, ist die Datei nicht UTF-8-BOM (BOM ist wichtig) oder UTF-16 formattiert. In [Notepad++](https://notepad-plus-plus.org/) kann man das sehr gut ändern.
 
 **Autostart:** Windows+R -> `shell:startup` - Datei in geöffneten Ordner verschieben. Damit wird das Skript nach Login ausgeführt.
 

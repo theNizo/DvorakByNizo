@@ -84,21 +84,19 @@ The ID of the layout is listed in the release notes. I will use the following on
 * https://docs.microsoft.com/en-us/powershell/module/international/get-windefaultinputmethodoverride?view=win10-ps
 * https://docs.microsoft.com/en-us/powershell/module/international/set-windefaultinputmethodoverride?view=win10-ps
 
-### Layout bei Login verwenden
+### Use the layout on login screen
 
 (Assuming you set DBN as default layout.)
 
 Control Panel -> Region -> Administrative -> Copy Settings -> Tick "Welcome screen and system accounts" -> Ok
 
-### Install Fn Layer (broken)
-
-[My Script](https://github.com/theNizo/Nizo-Keyboard-Extension) is currently broken, although I used exactly that. That's why it's not in this repo. I don't use Windows nowadays, so this is a low priority for me.
+### Install Fn Layer
 
 In both cases it's an AutoHotKey Script. The first Option doesn't need AutoHotKey installed.
 
 **Option 1:** download the .exe
 
-**Option 2:** Install [AutoHotKey](https://www.autohotkey.com/) and download the .ahk
+**Option 2:** Install [AutoHotKey](https://www.autohotkey.com/) and download the .ahk. If AHK can't recognize umlauts or `ß`, it's not formatted UTF-8-BOM (BOM is important) or UTF-16. You can change this with [Notepad++](https://notepad-plus-plus.org/), for example.
 
 **Autostart:** Windows+R -> `shell:startup` - Move the file in the folder that just opened. The script will now start after login.
 
