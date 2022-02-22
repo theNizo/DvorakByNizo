@@ -1,132 +1,143 @@
-Windows version made wit [MSKLC](https://www.microsoft.com/en-us/download/details.aspx?id=22339) (doesn't work in the latest Win10 version afaik. I have a Win7 VM just to run this program.)
-
-Linux version made by finding out how xkb works by reverse engineering and trying. [Here's a cheatsheet I made.](https://github.com/thenizo/xkb-symbols-reference)
+[english README here](README.english.md)
 
 # Dvorak by Nizo
 
-## Deutsch (english part below)
+German Dvorak done properly
 
-Dies ist ein eigenes Tastaturlayout, welches auf [Dvorak](https://de.wikipedia.org/wiki/Dvorak-Tastaturbelegung) basiert. Für Deutsch angepasst. Cheatsheet: Die PNG Datei
+![Standard Layer](img/0-default.png)
 
-Das Projekt habe ich irgendwann 2017-2018 gestartet und habe das Layout über die Zeit angepasst.
+<details>
+<summary>AltGr + Fn Layer</summary>
 
-**Warum nicht Dvorak Type II:** Ich habe ursprünglich das englische gelernt, bei dem allerdings keine Umlaute sind. Das Englische und Type II sind aber zu verschieden (~ 3x zwei Tasten vertauscht). ß ist unpraktisch platziert. Außerdem werden ein paar zeichen unnötig wiederholt (@ gibt's 4 mal im AltGr Layer, was ich deppert finde.). Dvorak by Nizo soll einen einfachen Zugriff auf alle benötigten Zeichen geben und gleichzeitig so nahe wie möglich an US Dvorak sein.
+![AltGr Layer](img/1-AltGr.png)
 
-Ich verwende das unter Windows in Kombination mit einer [Erweiterung](https://github.com/theNizo/NizosUltimateKeyboard) (Vorwarnung: wird ungewöhnlich, andere Tastaturen zu verwenden, geht aber). Diese ist bei Linux bereits implementiert, kann aber ignoriert werden.
+![Fn Layer (optional)](img/2-FN.png)
+</details>
 
-#### Falls jemand mir bei Linux helfen möchte, bitte ich darum. Die Person wird selbstverständlich erwähnt werden.
+# Warum nicht Dvorak Type II?
 
-#### Falls jemand das Layout für macOS porten möchte (falls das überhaupt möglich ist), würde es mich sehr freuen. Ich würde das dann in diesem Repo unter dem Namen "Dvorak by Nizo (ported by ...)" zur Verfügung stellen.
+* Ich habe die englische Version von Dvorak gelernt. Ein paar Buchstaben sind vertauscht: E-I, D-H, R-T; Z und L sind falsch.
+* @ ist 4x im AltGr Layer - Warum?
+*  ß ist unpraktisch platziert (Shift).
 
-### Installation
+# Aber was macht dieses Layout besser?
 
-#### Windows (Arbeit eingestellt, ich verwende nur noch Linux)
+* Nahe an der englischen Version - keine große Umstellung nötig
+* viele Sonderzeichen einfach zu erreichen.
+* Optionaler Fn Layer
 
-Das Layout ist aufgrund des AltGr Layers nicht [damit](https://github.com/kentonv/dvorak-qwerty) kompatibel.
+# Welche Tools/Software wurde(n) verwendet?
 
-1. unter [releases](https://github.com/theNizo/DvorakByNizo-German/releases) die neueste version für Windows herunterladen
-2. Entpacken
-3. Im Ordner 'setup.exe' ausführen
-4. Neu Starten
-5. [Layout einstellen](https://www.windowscentral.com/how-change-your-keyboard-layout-windows-10) (hab leider nur auf Englisch was sinnvolles gefunden)
-6. Dvorak by Nizo verwenden.
+**Linux:** Text Editor, reverse engineering, [An Unreliable Guide to XKB configuration](https://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.600.7058), [eigenes Cheatsheet](https://github.com/thenizo/xkb-symbols-reference)
 
-#### "Aber ich benutze Windows 10 Ameliorated"
+**Windows:** [MSKLC](https://www.microsoft.com/en-us/download/details.aspx?id=22339), [AutoHotKey](https://www.autohotkey.com/)
 
-[AME](https://ameliorated.info/) hat den Nachteil, dass es kein Menü zum Einstellen der Tastatur-Layouts gibt. Im FAQ von AME wird empfohlen, die Powershell zu verwenden.
+# Installation
 
-Für mein Layout braucht man allerdings eine andere Herangehensweise, als im FAQ gezeigt. (Auf dem zur Verfügung gestellten 1903 Image getestet)
+## Linux
 
-1. Auf einer normalen Windows Installation (nicht AME) folgenden Powershell Befehl ausführen: `Get-WinDefaultInputMethodOverride`
-2. gibt folgende Nummer: `2000:A0000C07`
-3. Powershell: `Set-WinDefaultInputMethodOverride -InputTip "2000:A0000C07"`
-4. Das Layout kann man nun verwenden
-5. (Nur auf Englisch probiert) Win+I -> Devices -> Typing -> Advanced Keyboard Settings -> Standard Layout auf "Dvorak by Nizo" setzen
-6. Das Layout ist nun Standard
-7. Control Panel -> Region -> Administrative -> Copy Settings -> Tick "Welcome screen and system accounts" -> Ok
-8. Das Layout ist nun auf dem Login Bildschirm verwendbar.
+Das Layout ersetzt Dvorak Type II, welches als "German (Dvorak)" genannt wird.
 
-- https://docs.microsoft.com/en-us/powershell/module/international/get-windefaultinputmethodoverride?view=win10-ps
-- https://docs.microsoft.com/en-us/powershell/module/international/set-windefaultinputmethodoverride?view=win10-ps
-
-
-#### Linux
-
-Am liebsten würde ich in den Einstallungen einen neuen Eintrag mit dem Titel "Dvorak by Nizo" haben, aber ich weiß nicht, wie ich das hinbekomme. Aktuell ersetzt das Layout das deutsche Dvorak Layout, welches ich, ehrlich gesagt, sowieso furchtbar finde.
-
-Die aktuellste Version wird nicht mehr als Release veröffentlicht
+Die Linux version wird nicht über Releases veröffentlicht.
 
 1. Folgende Befehle ausführen:
 ```
 wget https://raw.githubusercontent.com/theNizo/DvorakByNizo-German/master/dbn-install.sh && chmod +x dbn-install.sh && ./dbn-install.sh && rm dbn-install.sh
 ```
-2. (Optional) Backup woanders hinlegen. Das Skript warnt aber eh nächstes Mal.
-3. Aus- und wieder einloggen
-4. Layout einstellen
-5. Profit
+1. (Optional) Backup woanders hinlegen. Das Skript warnt aber auch nächstes Mal.
+1. Aus- und wieder einloggen
+1. Layout einstellen (per GUI, oder mit `setxkbmap de -variant  dvorak` unter X.org)
+1. (Falls Fn unter Gnome): Gnome Tweaks (`gnome-tweaks`) -> Tastatur & Maus -> Zusätzliche Layout Optionen: 3. Layer - Caps; 5. Layer - AltGr
 
-EDIT: Ich habe gerade einen Bug gefunden, wodurch der Layer 5 nicht verwendet werden kann. Wenn man Gnome benutzt, muss man in den Gnome Tweaks -> Tastatur und Maus -> Zusätzliche Layout Optionen als Taste für den 5. Layer AltGr auswählen, dann geht es ohne Probleme. Bei Layer 3 Caps einstellen.
+**Automatisierung**
 
-------
+Mein Skript läuft, ohne nachzufragen, durch, wenn es 3 Argumente bekommt. Diese lauten wie folgt:
 
-## English
+| | Fn Layer | key.Type | Backup erstellen |
+|--- |--- |--- |--- |
+| **Ja** | fn | type | bak |
+| **Nein** | nofn | notype | nobak |
 
-This is a german [Dvorak](https://en.wikipedia.org/wiki/Dvorak_Simplified_Keyboard) Keyboard Layout made by me. For a cheatsheet, see the PNG in the root
+(Das Skript überprüft nicht, ob eine Internetverbindung besteht und nimmt generell an, dass die Dateien erfolgreich heruntergeladen werden.)
 
-This project started somewhere between 2017-2018. It was improved over time.
+## Windows
 
-**Why not Dvorak Type II:** I originally learned the english Dvorak, which doesn't have umlauts. But Type II is just too different (they switched two keys. ~3 times.). ß is placed at a bad position. Also, some letters are repeated unnecessarily (@ appears 4 times in the AltGr layer, which is pretty stupid if you ask me.). Dvorak by Nizo should provide the most used symbols at comfortable places while being as near to US Dvorak as possible.
-
-On Windows, I'm using it with an [extension](https://github.com/theNizo/NizosUltimateKeyboard) (Note: It will get harder to use other keybeards if you get used to it). This is already included in Linux, but can be safely ignored if you wish.
-
-#### If someone wants to help me with the Linux port, I'd be happy to have some help. Of course you'll be mentioned.
-
-#### If someone wants to port it to macOS (if that's possible), I would like to put it into this Repo with the name "Dvorak by Nizo (ported by ...)".
+Aufgrund des AltGr Layers nicht [damit](https://github.com/kentonv/dvorak-qwerty) kompatibel.
 
 ### Installation
 
-#### Windows (abandoned, I switched to Linux)
+Unter [releases](https://github.com/theNizo/DvorakByNizo-German/releases) die neueste version für Windows herunterladen, entpacken und `setup.exe` ausführen. Aus- und wieder einloggen
 
-This layout is incommpatible with [this](https://github.com/kentonv/dvorak-qwerty), because of the AltGr Layer.
+### Layout einstellen
 
-1. Download the newest [releases](https://github.com/theNizo/DvorakByNizo-German/releases) for Windows
-2. Extract
-3. Run the 'setup.exe'
-4. Reboot
-5. [Set keyboard Layout](https://www.windowscentral.com/how-change-your-keyboard-layout-windows-10)
-6. Done
+[Deutscher Guide](https://community.acer.com/de/kb/articles/70-windows-10-tastaturlayout-aendern), [englischer Guide](https://www.windowscentral.com/how-change-your-keyboard-layout-windows-10)
 
-#### "But I'm using Windows 10 Ameliorated"
+### Layout auf Windows 10 AME einstellen
 
-[AME](https://ameliorated.info/) has the disadvantage of not having an interface for selecting an input method. The FAQ of AME recommends to do it with Powershell.
+[AME](https://ameliorated.info/) hat kein Visuelles Menü.
 
-For my layout, you need a different approach than shown in the FAQ. (Tested on the downloadable 1903 image)
+Mein Layout hat die ID `2000:A0000C07` (herausgefunden mit `Get-WinDefaultInputMethodOverride`)
 
-1. On a default Windows installation (not AME) with Dvorak by Nizo set to default, execute in Powershell: `Get-WinDefaultInputMethodOverride`
-2. gives you this number: `2000:A0000C07`
-3. Powershell: `Set-WinDefaultInputMethodOverride -InputTip "2000:A0000C07"`
-4. You can now use the layout
-5. Win+I -> Devices -> Typing -> Advanced Keyboard Settings -> Set the default layout to "Dvorak by Nizo"
-6. The layout is now the default one.
-7. Control Panel -> Region -> Administrative -> Copy Settings -> Tick "Welcome screen and system accounts" -> Ok
-8. The Layout is now available on the login screen.
+1. Powershell: `Set-WinDefaultInputMethodOverride -InputTip "2000:A0000C07"`
+1. (Nur auf Englisch probiert) Win+I -> Devices -> Typing -> Advanced Keyboard Settings -> Standard Layout auf "Dvorak by Nizo" setzen
 
-- https://docs.microsoft.com/en-us/powershell/module/international/get-windefaultinputmethodoverride?view=win10-ps
-- https://docs.microsoft.com/en-us/powershell/module/international/set-windefaultinputmethodoverride?view=win10-ps
+* https://docs.microsoft.com/en-us/powershell/module/international/get-windefaultinputmethodoverride?view=win10-ps
+* https://docs.microsoft.com/en-us/powershell/module/international/set-windefaultinputmethodoverride?view=win10-ps
 
-#### Linux
+### Layout bei Login verwenden
 
-I'd like to have my own entry in the settings menu, called "Dvorak by Nizo", but as of now, I don't know how to do that. The layout currently replaces the german Dvorak variant which I think is horrible anyway.
+(Setzt vorraus, dass DBN als Standard-layout eingestellt ist)
 
-The newest version of the file won't be showing up in the Releases.
+Control Panel -> Region -> Administrative -> Copy Settings -> "Welcome screen and system accounts" auswählen -> Ok
 
-1. Run the following commands:
-```
-wget https://raw.githubusercontent.com/theNizo/DvorakByNizo-German/master/dbn-install.sh && chmod +x dbn-install.sh && ./dbn-install.sh && rm dbn-linux-install.sh
-```
-2. (Optional) Move the backup somewhere else. The Script would warn you next time anyway.
-3. Log out and back in
-4. Select Layout
-5. Profit
+### Fn Layer installieren (broken)
 
-EDIT: I just found a bug that doesn't let you use layer 5. if you use Gnome, go to Gnome Tweaks -> Keyboard & Mouse -> Additional Layout options -> key to choose the 5th level and select Right Alt.
+[Mein Skript](https://github.com/theNizo/Nizo-Keyboard-Extension) funktioniert aktuell nicht, obwohl ich es in genau der Form in der Vergangenheit verwendet habe. Deshalb ist es nicht in diesem Repo. Ich benutze mittlerweile kein Windows mehr, also ist das eine niedrige Priorität für mich.
+
+Es ist in beiden Fällen ein AutoHotKey Skript, der erste Weg benötigt keine Installation von AutoHotKey.
+
+**Option 1:** .exe herunterladen
+
+**Option 2:** [AutoHotKey](https://www.autohotkey.com/) installieren und .ahk Skript herunterladen.
+
+**Autostart:** Windows+R -> `shell:startup` - Datei in geöffneten Ordner verschieben. Damit wird das Skript nach Login ausgeführt.
+
+## macOS
+
+Gibt es leider aktuell nicht. Ich habe vor kurzem Ukulele gefunden und werde mir das anschauen. Verwende aber keine Macs, das kann also dauern.
+
+Wenn jemand anderes mein Layout porten will, nur zu. Die Person würde natürlich erwähnt werden.
+
+## QMK/Programmierbare Tastaturen für Fn
+
+Viele mechanische Tastaturen sind programmierbar und könne den Fn Layer so übernehmen. Die Tastatur selbst kann das wesentlich besser.
+
+Ich gehe die Tasten der Reihe nach durch
+
+| Keycode       | Beschr.          |
+|---------------|------------------|
+| KC_WH_U       | rauf scrollen    |
+| KC_WH_D       | runter scrollen  |
+| KC_INS        | Einfügen         |
+| KC_HOME       | Pos1             |
+| LCTL(KC_LEFT) | Strg+Links       |
+| LCTL(KC_RGHT) | Strg+Rechts      |
+| KC_END        | Ende             |
+| KC_PAUS       | Pause            |
+| KC_ESC        | Escape           |
+| KC_MPRV       | Media Prev.      |
+| KC_MPLY       | Media Play/Pause |
+| KC_MNXT       | Media Next       |
+| KC_BSPC       | Backspace        |
+| KC_LEFT       | Links            |
+| KC_DOWN       | Unten            |
+| KC_UP         | Oben             |
+| KC_RGHT       | Rechts           |
+| KC_DEL        | Entfernen        |
+| KC_SLCK       | Scroll-Lock      |
+| KC_ENT        | Enter            |
+| KC_MUTE       | Stumm schalten   |
+| KC_VOLD       | leiser           |
+| KC_VOLU       | lauter           |
+| KC_PGUP       | Bild Rauf        |
+| KC_PGDN       | Bild Runter      |
