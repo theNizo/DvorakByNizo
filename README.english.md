@@ -28,9 +28,13 @@ German Dvorak done properly
 
 # What tools/software did you use?
 
+**Layout-Bilder:** http://keyboard-layout-editor.com/
+
 **Linux:** Text Editor, reverse engineering, [An Unreliable Guide to XKB configuration](https://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.600.7058), [my own Cheatsheet](https://github.com/thenizo/xkb-symbols-reference)
 
 **Windows:** [MSKLC](https://www.microsoft.com/en-us/download/details.aspx?id=22339), [AutoHotKey](https://www.autohotkey.com/)
+
+**macOS:** [Ukelele](https://software.sil.org/ukelele/)
 
 # Installation
 
