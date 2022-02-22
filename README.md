@@ -9,9 +9,9 @@ German Dvorak done properly
 <details>
 <summary>AltGr + Fn Layer</summary>
 
-![AltGr Layer](img/1-AltGr.png)
+![AltGr Layer](img/1-alt.png)
 
-![Fn Layer (optional)](img/2-FN.png)
+![Fn Layer (optional)](img/2-fn.png)
 </details>
 
 # Warum nicht Dvorak Type II?
