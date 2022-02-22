@@ -76,9 +76,9 @@ Unter [releases](https://github.com/theNizo/DvorakByNizo-German/releases) die ne
 
 [AME](https://ameliorated.info/) hat kein Visuelles Menü.
 
-Mein Layout hat die ID `2000:A0000C07` (herausgefunden mit `Get-WinDefaultInputMethodOverride`)
+Mein Layout hat die ID `0c07:A0010c07` (herausgefunden mit `Get-WinDefaultInputMethodOverride`)
 
-1. Powershell: `Set-WinDefaultInputMethodOverride -InputTip "2000:A0000C07"`
+1. Powershell: `Set-WinDefaultInputMethodOverride -InputTip "0c07:A0010c07"`
 1. (Nur auf Englisch probiert) Win+I -> Devices -> Typing -> Advanced Keyboard Settings -> Standard Layout auf "Dvorak by Nizo" setzen
 
 * https://docs.microsoft.com/en-us/powershell/module/international/get-windefaultinputmethodoverride?view=win10-ps

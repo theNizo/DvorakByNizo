@@ -76,9 +76,9 @@ Download the newest version from [releases](https://github.com/theNizo/DvorakByN
 
 [AME](https://ameliorated.info/) doesn't have a GUI for that.
 
-My layout has the ID `2000:A0000C07` (figured out with `Get-WinDefaultInputMethodOverride`)
+My layout has the ID `0c07:A0010c07` (figured out with `Get-WinDefaultInputMethodOverride`)
 
-1. Powershell: `Set-WinDefaultInputMethodOverride -InputTip "2000:A0000C07"`
+1. Powershell: `Set-WinDefaultInputMethodOverride -InputTip "0c07:A0010c07"`
 1. Win+I -> Devices -> Typing -> Advanced Keyboard Settings -> Set default layout to "Dvorak by Nizo"
 
 * https://docs.microsoft.com/en-us/powershell/module/international/get-windefaultinputmethodoverride?view=win10-ps
