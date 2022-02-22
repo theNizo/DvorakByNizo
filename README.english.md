@@ -66,7 +66,7 @@ Not compatible with [this](https://github.com/kentonv/dvorak-qwerty), because of
 
 ### Installation
 
-Download the newest version from [releases](https://github.com/theNizo/DvorakByNizo-German/releases), unzip and run `setup.exe`. Logout, login.
+Download the newest version for Windows from [releases](https://github.com/theNizo/DvorakByNizo-German/releases), unzip and run `setup.exe`. Logout, login.
 
 ### Set layout
 
@@ -102,9 +102,26 @@ In both cases it's an AutoHotKey Script. The first Option doesn't need AutoHotKe
 
 ## macOS
 
-Doesn't exist currently. I recently discovered Ukulele and will take a look at it. I don't use Macs, so this can take some time.
+### Installation
 
-If someone else wants to port my layout, go ahaed. I would mention you, of course.
+It is very straightforward, I'll explain anyway
+
+(testet in Catalina)
+
+Download the newest version for macOS from [releases](https://github.com/theNizo/DvorakByNizo-German/releases).
+
+Open the .dmg, start "Keyboard installer" from there. Pull the file to the text on the bottom, click on "User". (For all is apparently deprecated)
+
+**!! WITH "USER", THE LAYOUT IS NOT AVAILABLE ON THE LOGIN SCREEN !!**
+
+![Explanation in visual format](img/3-macos.png)
+
+### Set layout
+
+1. System Preferences -> Keyboard -> Input Sources -> `+`
+1. The layout can be found in "others" (all the way down). You can also type "nizo" in the search bar.
+1. Select layout, press "Add"
+1. If the first checkbox in the Settings menu is ticked, the status bar has an icon for switching the layout. Select my layout here.
 
 ## QMK/Programmable Keyboards for Fn
 

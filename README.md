@@ -32,6 +32,8 @@ German Dvorak done properly
 
 **Windows:** [MSKLC](https://www.microsoft.com/en-us/download/details.aspx?id=22339), [AutoHotKey](https://www.autohotkey.com/)
 
+**macOS:** [Ukelele](https://software.sil.org/ukelele/)
+
 # Installation
 
 ## Linux
@@ -102,9 +104,26 @@ Es ist in beiden Fällen ein AutoHotKey Skript, der erste Weg benötigt keine In
 
 ## macOS
 
-Gibt es leider aktuell nicht. Ich habe vor kurzem Ukulele gefunden und werde mir das anschauen. Verwende aber keine Macs, das kann also dauern.
+### Installation
 
-Wenn jemand anderes mein Layout porten will, nur zu. Die Person würde natürlich erwähnt werden.
+Es ist sehr einfach, ich erklär's trotzdem
+
+(getestet unter Catalina)
+
+Unter [releases](https://github.com/theNizo/DvorakByNizo-German/releases) die neueste version für macOS herunterladen.
+
+Die .dmg öffnen, "Keyboard installer" starten, Datei auf den Text unten ziehen, auf den User klicken. (Alle Benutzer wird scheinbar nicht mehr unterstützt.)
+
+**!! BEI "USER" IST DAS LAYOUT NICHT AUF DEM ANMELDEBILDSCHIRM VERFÜGBAR !!**
+
+![Erklärung in Bildform](img/3-macos.png)
+
+### Layout einstellen
+
+1. Systemeinstellungen -> Tastatur -> Eingabequellen -> `+`
+1. Das Layout ist unter "andere" (ganz unten) zu finden. Alternativ kann man in der Suchleiste "nizo" eingeben.
+1. Layout auswählen, "Hinzufügen"
+1. Sofern der erste Haken im Einstellungsmenü angetickt ist, ist in der Statusleiste eine Auswahl für die Tastatur. Hier mein Layout auswählen.
 
 ## QMK/Programmierbare Tastaturen für Fn
 
