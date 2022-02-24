@@ -23,14 +23,14 @@ German Dvorak done properly
 # Aber was macht dieses Layout besser?
 
 * Nahe an der englischen Version - keine große Umstellung nötig
-* viele Sonderzeichen einfach zu erreichen.
+* viele Sonderzeichen einfach zu erreichen
 * Optionaler Fn Layer
 
 # Welche Tools/Software wurde(n) verwendet?
 
 **Layout-Bilder:** http://keyboard-layout-editor.com/
 
-**Linux:** Text Editor, reverse engineering, [An Unreliable Guide to XKB configuration](https://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.600.7058), [eigenes Cheatsheet](https://github.com/thenizo/xkb-symbols-reference)
+**Linux:** Text Editor, Reverse Engineering, [An Unreliable Guide to XKB configuration](https://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.600.7058), [eigenes Cheatsheet](https://github.com/thenizo/xkb-symbols-reference)
 
 **Windows:** [MSKLC](https://www.microsoft.com/en-us/download/details.aspx?id=22339), [AutoHotKey](https://www.autohotkey.com/)
 
@@ -42,16 +42,16 @@ German Dvorak done properly
 
 Das Layout ersetzt Dvorak Type II, welches als "German (Dvorak)" genannt wird.
 
-Die Linux version wird nicht über Releases veröffentlicht.
+Die Linux Version wird nicht über Releases veröffentlicht.
 
 1. Folgende Befehle ausführen:
 ```
 wget https://raw.githubusercontent.com/theNizo/DvorakByNizo-German/master/dbn-install.sh && chmod +x dbn-install.sh && ./dbn-install.sh && rm dbn-install.sh
 ```
-1. (Optional) Backup woanders hinlegen. Das Skript warnt aber auch nächstes Mal.
-1. Aus- und wieder einloggen
-1. Layout einstellen (per GUI, oder mit `setxkbmap de -variant  dvorak` unter X.org)
-1. (Falls Fn unter Gnome): Gnome Tweaks (`gnome-tweaks`) -> Tastatur & Maus -> Zusätzliche Layout Optionen: 3. Layer - Caps; 5. Layer - AltGr
+2. (Optional) Backup woanders hinlegen. Das Skript warnt aber auch nächstes Mal.
+3. Aus- und wieder einloggen
+4. Layout einstellen (per GUI, oder mit `setxkbmap de -variant  dvorak` unter X.org)
+5. (Falls Fn unter Gnome): Gnome Tweaks (`gnome-tweaks`) -> Tastatur & Maus -> Zusätzliche Layout Optionen: 3. Layer - Caps; 5. Layer - AltGr
 
 **Automatisierung**
 
@@ -70,7 +70,7 @@ Aufgrund des AltGr Layers nicht [damit](https://github.com/kentonv/dvorak-qwerty
 
 ### Installation
 
-Unter [releases](https://github.com/theNizo/DvorakByNizo-German/releases) die neueste version für Windows herunterladen, entpacken und `setup.exe` ausführen. Aus- und wieder einloggen
+Unter [Releases](https://github.com/theNizo/DvorakByNizo-German/releases) die neueste version für Windows herunterladen, entpacken und `setup.exe` ausführen. Aus- und wieder einloggen.
 
 ### Layout einstellen
 
@@ -78,9 +78,9 @@ Unter [releases](https://github.com/theNizo/DvorakByNizo-German/releases) die ne
 
 ### Layout auf Windows 10 AME einstellen
 
-[AME](https://ameliorated.info/) hat kein Visuelles Menü.
+[AME](https://ameliorated.info/) hat kein visuelles Menü.
 
-Die ID des Layouts ist im Release angegeben. Ich werde als Beispiel-ID folgende nehmen: `0c07:A0010c07` (IDs können herausgefunden werden, indem man ein Standard-Layout setzt und dann den folgenden Befehl in die Powershell eingibt: `Get-WinDefaultInputMethodOverride`). Diese bitte ersetzen
+Ich werde als Beispiel-ID folgende nehmen: `0c07:A0010c07` - Diese bitte durch die im Release angegebene ersetzen. (IDs können herausgefunden werden, indem man in einem unmodifizierten Windows 10 [ein Standard-Layout setzt](https://winaero.com/set-default-keyboard-layout-windows-10/) und dann den folgenden Befehl in die Powershell eingibt: `Get-WinDefaultInputMethodOverride`).
 
 1. Powershell: `Set-WinDefaultInputMethodOverride -InputTip "0c07:A0010c07"`
 1. (Nur auf Englisch probiert) Win+I -> Devices -> Typing -> Advanced Keyboard Settings -> Standard Layout auf "Dvorak by Nizo" setzen
@@ -108,13 +108,13 @@ Es ist in beiden Fällen ein AutoHotKey Skript, der erste Weg benötigt keine In
 
 ### Installation
 
-Es ist sehr einfach, ich erklär's trotzdem
+Es ist sehr einfach, ich erklär's trotzdem.
 
-(getestet unter Catalina)
+(getestet unter Catalina.)
 
-Unter [releases](https://github.com/theNizo/DvorakByNizo-German/releases) die neueste version für macOS herunterladen.
+Unter [Releases](https://github.com/theNizo/DvorakByNizo-German/releases) die neueste version für macOS herunterladen.
 
-Die .dmg öffnen, "Keyboard installer" starten, Datei auf den Text unten ziehen, auf den User klicken. (Alle Benutzer wird scheinbar nicht mehr unterstützt.)
+Die .dmg öffnen, "Keyboard installer" von dort aus starten, Datei auf den Text unten ziehen, auf den User klicken. (Alle Benutzer wird scheinbar nicht mehr unterstützt.)
 
 **!! BEI "USER" IST DAS LAYOUT NICHT AUF DEM ANMELDEBILDSCHIRM VERFÜGBAR !!**
 

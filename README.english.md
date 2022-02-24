@@ -28,7 +28,7 @@ German Dvorak done properly
 
 # What tools/software did you use?
 
-**Layout-Bilder:** http://keyboard-layout-editor.com/
+**Layout-Pictures:** http://keyboard-layout-editor.com/
 
 **Linux:** Text Editor, reverse engineering, [An Unreliable Guide to XKB configuration](https://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.600.7058), [my own Cheatsheet](https://github.com/thenizo/xkb-symbols-reference)
 
@@ -48,10 +48,10 @@ The Linux version does not get published via releases.
 ```
 wget https://raw.githubusercontent.com/theNizo/DvorakByNizo-German/master/dbn-install.sh && chmod +x dbn-install.sh && ./dbn-install.sh && rm dbn-install.sh
 ```
-1. (Optional) Move the Backup. The script will warn you next time though.
-1. Logout, Login
-1. Set layout (via GUI, oder run `setxkbmap de -variant  dvorak`, if you use X.org)
-1. (If you use Fn in Gnome): Gnome Tweaks (`gnome-tweaks`) -> Keyboard & Mouse -> Additional Layout Options: 3. Layer - Caps; 5. Layer - AltGr
+2. (Optional) Move the backup. The script will warn you next time though.
+3. Logout, login
+4. Set layout (via GUI, oder run `setxkbmap de -variant  dvorak`, if you use X.org)
+5. (If you use Fn in Gnome): Gnome Tweaks (`gnome-tweaks`) -> Keyboard & Mouse -> Additional Layout Options: 3. Layer - Caps; 5. Layer - AltGr
 
 **Automatic stuff**
 
@@ -62,7 +62,7 @@ My script runs without asking, if it gets 3 arguments. These are called:
 | **Yes** | fn | type | bak |
 | **No** | nofn | notype | nobak |
 
-(The script doesn't test your Internet connection and assumes that all files will/have downloaded properly.)
+(The script doesn't test your internet connection and assumes that all files will/have download(ed) properly.)
 
 ## Windows
 
@@ -80,7 +80,7 @@ Download the newest version for Windows from [releases](https://github.com/theNi
 
 [AME](https://ameliorated.info/) doesn't have a GUI for that.
 
-The ID of the layout is listed in the release notes. I will use the following one as an example: `0c07:A0010c07` (IDs can be figured out by setting a default override, then running `Get-WinDefaultInputMethodOverride` in powershell)
+I will use the following ID as an example: `0c07:A0010c07` - Replace it with the ID listed in the release. (IDs can be figured out by [setting a default override](https://winaero.com/set-default-keyboard-layout-windows-10/) on an unmodified Windows 10, then running `Get-WinDefaultInputMethodOverride` in powershell.)
 
 1. Powershell: `Set-WinDefaultInputMethodOverride -InputTip "0c07:A0010c07"`
 1. Win+I -> Devices -> Typing -> Advanced Keyboard Settings -> Set default layout to "Dvorak by Nizo"
@@ -108,7 +108,7 @@ In both cases it's an AutoHotKey Script. The first Option doesn't need AutoHotKe
 
 ### Installation
 
-It is very straightforward, I'll explain anyway
+It is very straightforward, I'll explain anyway.
 
 (testet in Catalina)
 
