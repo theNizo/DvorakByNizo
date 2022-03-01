@@ -20,7 +20,7 @@ then
 	# Choose the installer language #
 	#################################
 	cat << language
-[1] Deutsch (not finished yet)
+[1] Deutsch
 [2] English
 [Q] Quit
 
