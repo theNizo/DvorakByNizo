@@ -104,6 +104,14 @@ Es ist in beiden Fällen ein AutoHotKey Skript, der erste Weg benötigt keine In
 
 **Autostart:** Windows+R -> `shell:startup` - Datei in geöffneten Ordner verschieben. Damit wird das Skript nach Login ausgeführt.
 
+### Bekannte Probleme
+
+`AltGr = Strg+Alt` - Dementsprechend entsteht dabei ein Problem mit Shortcuts in manchen Programmen.
+
+**Keepass:** Keepass hat normalerweise die Shortcuts `Strg+Alt+A` und `Strg+Alt+Shift+A`., wodurch `(` und `{` blockiert werden. Ich persönlich habe die Shortcuts dort rausgenommen, weil ich sie nicht brauche. Alternativ kann [KeepassXC](https://keepassxc.org/) verwendet werden, eine FOSS Fork von Keepass.
+
+**Diverse IDEs:** ...nehme ich mal an. Speziell bei IntelliJ musste ich ein paar Shortcuts rausnehmen, damit mein Layout gut funktioniert.
+
 ## macOS
 
 ### Installation

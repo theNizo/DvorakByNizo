@@ -104,6 +104,14 @@ In both cases it's an AutoHotKey Script. The first Option doesn't need AutoHotKe
 
 **Autostart:** Windows+R -> `shell:startup` - Move the file in the folder that just opened. The script will now start after login.
 
+### Known Issues
+
+`AltGr = Ctrl+Alt` - Because of that, some issues with shortcuts appear in some applications.
+
+**Keepass:** Keepass usually has `Ctrl+Alt+A` and `Ctrl+Alt+Shift+A` as shortcuts, which blocks `(` and `{` as they are located on `A`. On my system I just removed the shortcuts. An alternative way is to use [KeepassXC](https://keepassxc.org/), a FOSS fork of Keepass.
+
+**IDEs and stuff:** ...I guess. I can specifically tell about issues with shortcuts in IntelliJ, that I also just removed. I didn't use them anyway.
+
 ## macOS
 
 ### Installation
