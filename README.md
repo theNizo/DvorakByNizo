@@ -25,10 +25,12 @@ German Dvorak done properly
 * Nahe an der englischen Version - keine große Umstellung nötig
 * viele Sonderzeichen einfach zu erreichen
 * Optionaler Fn Layer
+* Möglichkeit für einhändiges Kopieren, Ausschneiden und Einfügen (nicht überall verfügbar)
+* Bonus: `Å` für Dialekte
 
 # Welche Tools/Software wurde(n) verwendet?
 
-**Layout-Bilder:** http://keyboard-layout-editor.com/
+**Layout-Bilder:** [Keyboard Layout Editor](http://www.keyboard-layout-editor.com/)
 
 **Linux:** Text Editor, Reverse Engineering, [An Unreliable Guide to XKB configuration](https://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.600.7058), [eigenes Cheatsheet](https://github.com/thenizo/xkb-symbols-reference)
 
@@ -85,6 +87,8 @@ Ich werde als Beispiel-ID folgende nehmen: `0c07:A0010c07` - Diese bitte durch d
 1. Powershell: `Set-WinDefaultInputMethodOverride -InputTip "0c07:A0010c07"`
 1. (Nur auf Englisch probiert) Win+I -> Devices -> Typing -> Advanced Keyboard Settings -> Standard Layout auf "Dvorak by Nizo" setzen
 
+Quellen:
+
 * https://docs.microsoft.com/en-us/powershell/module/international/get-windefaultinputmethodoverride?view=win10-ps
 * https://docs.microsoft.com/en-us/powershell/module/international/set-windefaultinputmethodoverride?view=win10-ps
 
@@ -137,9 +141,9 @@ Die .dmg öffnen, "Keyboard installer" von dort aus starten, Datei auf den Text 
 
 ## QMK/Programmierbare Tastaturen für Fn
 
-Viele mechanische Tastaturen sind programmierbar und könne den Fn Layer so übernehmen. Die Tastatur selbst kann das wesentlich besser.
+Die meisten mechanischen Tastaturen sind mit QMK programmierbar und können den Fn Layer so übernehmen. Eine physische Tastatur kann das wesentlich besser.
 
-Ich gehe die Tasten der Reihe nach durch
+Ich gehe die Tasten der Reihe nach durch:
 
 | Keycode       | Beschr.          |
 |---------------|------------------|
@@ -162,6 +166,9 @@ Ich gehe die Tasten der Reihe nach durch
 | KC_RGHT       | Rechts           |
 | KC_DEL        | Entfernen        |
 | KC_SLCK       | Scroll-Lock      |
+| LCTL(KC_B)    | Strg + X         |
+| LCTL(KC_I)    | Strg + C         |
+| LCTL(KC_DOT)  | Strg + V         |
 | KC_ENT        | Enter            |
 | KC_MUTE       | Stumm schalten   |
 | KC_VOLD       | leiser           |
