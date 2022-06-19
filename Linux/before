@@ -1,3 +1,5 @@
+// Keyboard layouts for Germany.
+
 default
 xkb_symbols "basic" {
 
@@ -5,32 +7,30 @@ xkb_symbols "basic" {
 
     name[Group1]="German";
 
-    key <AE02>	{ [         2,   quotedbl,  twosuperior,    oneeighth ]	};
-    key <AE03>	{ [         3,    section, threesuperior,    sterling ]	};
-    key <AE04>	{ [         4,     dollar,   onequarter,     currency ]	};
+    key <TLDE>	{[dead_circumflex, degree,            U2032,          U2033 ]}; // ′ ″
+    key <AE02>	{[          2,   quotedbl,      twosuperior,      oneeighth ]};
+    key <AE03>	{[          3,    section,    threesuperior,       sterling ]};
+    key <AE04>	{[          4,     dollar,       onequarter,       currency ]};
+    key <AE11>	{[     ssharp,   question,        backslash,   questiondown,    U1E9E ], type[group1]="FOUR_LEVEL_PLUS_LOCK" };
+    key <AE12>	{[ dead_acute, dead_grave,     dead_cedilla,    dead_ogonek ]};
 
-    key <AE11> {type[Group1]="FOUR_LEVEL_PLUS_LOCK",  symbols[Group1]=
-                  [ssharp, question, backslash, questiondown, 0x1001E9E ]};
-    key <AE12>	{ [dead_acute, dead_grave, dead_cedilla,  dead_ogonek ]	};
+    key <AD03>	{[          e,          E,         EuroSign,       EuroSign ]};
+    key <AD06>	{[          z,          Z,        leftarrow,            yen ]};
+    key <AD11>	{[ udiaeresis, Udiaeresis,   dead_diaeresis, dead_abovering ]};
+    key <AD12>	{[       plus,   asterisk,       asciitilde,         macron ]};
 
-    key <AD03>	{ [         e,          E,     EuroSign,     EuroSign ]	};
-    key <AD06>	{ [         z,          Z,    leftarrow,          yen ]	};
-    key <AD11>	{ [udiaeresis, Udiaeresis, dead_diaeresis, dead_abovering ] };
-    key <AD12>	{ [      plus,   asterisk,   asciitilde,  macron ]	};
+    key <AC02>	{[          s,          S,            U017F,          U1E9E ]}; // ſ ẞ
+    key <AC07>	{[          j,          J,    dead_belowdot,  dead_abovedot ]};
+    key <AC10>	{[ odiaeresis, Odiaeresis, dead_doubleacute,  dead_belowdot ]};
+    key <AC11>	{[ adiaeresis, Adiaeresis,  dead_circumflex,     dead_caron ]};
+    key <BKSL>	{[ numbersign, apostrophe, rightsinglequotemark, dead_breve ]};
 
-    key <AC02>  { [         s,          S,                U017F,     U1E9E    ] };
-    key <AC07>  { [         j,          J,        dead_belowdot, dead_abovedot   ] };
-    key <AC10>	{ [odiaeresis, Odiaeresis, dead_doubleacute, dead_belowdot ] };
-    key <AC11>	{ [adiaeresis, Adiaeresis, dead_circumflex, dead_caron ] };
-    key <TLDE>	{ [dead_circumflex, degree,	U2032,    U2033	] };
-
-    key <BKSL>	{ [numbersign, apostrophe, rightsinglequotemark,   dead_breve ]	};
-    key <AB01>	{ [         y,          Y,       guillemotright,    U203A 	] };
-    key <AB02>	{ [         x,          X,        guillemotleft,    U2039 	] };
-    key <AB08>  { [     comma,  semicolon,       periodcentered,     multiply	] };
-    key <AB09>	{ [    period,      colon,                U2026,     division 	] };
-    key <AB10>	{ [     minus, underscore,               endash,     emdash	] };
-    key <LSGT>	{ [     less,     greater,                  bar, dead_belowmacron ] };
+    key <LSGT>	{[      less,     greater,            bar, dead_belowmacron ]};
+    key <AB01>	{[          y,          Y,   guillemotright,          U203A ]}; // » ›
+    key <AB02>	{[          x,          X,    guillemotleft,          U2039 ]}; // « ‹
+    key <AB08>	{[      comma,  semicolon,   periodcentered,       multiply ]};
+    key <AB09>	{[     period,      colon,            U2026,       division ]}; // … ÷
+    key <AB10>	{[      minus, underscore,           endash,         emdash ]};
 
     include "kpdl(comma)"
 
@@ -104,8 +104,8 @@ xkb_symbols "e1" {
     key.type[Group1] = "EIGHT_LEVEL";
     key <TLDE> { [ dead_circumflex,     degree,             multiply, NoSymbol,             NoSymbol,             NoSymbol, NoSymbol, NoSymbol ] };
     key <AE01> { [               1,     exclam, rightsinglequotemark, NoSymbol,           onequarter,                U25CA, NoSymbol, NoSymbol ] };
-    key <AE02> { [               2,   quotedbl,          twosuperior, NoSymbol,              onehalf,                U00A6, NoSymbol, NoSymbol ] };
-    key <AE03> { [               3,    section,        threesuperior, NoSymbol,        threequarters,                U00B6, NoSymbol, NoSymbol ] };
+    key <AE02> { [               2,   quotedbl,          twosuperior, NoSymbol,              onehalf,            brokenbar, NoSymbol, NoSymbol ] };
+    key <AE03> { [               3,    section,        threesuperior, NoSymbol,        threequarters,            paragraph, NoSymbol, NoSymbol ] };
     key <AE04> { [               4,     dollar,               emdash, NoSymbol,             currency,                U2133, NoSymbol, NoSymbol ] };
     key <AE05> { [               5,    percent,           exclamdown, NoSymbol,                U2030,                U20B0, NoSymbol, NoSymbol ] };
     key <AE06> { [               6,  ampersand,         questiondown, NoSymbol,                U2044,                U204A, NoSymbol, NoSymbol ] };
@@ -113,7 +113,7 @@ xkb_symbols "e1" {
     key <AE08> { [               8,  parenleft,          bracketleft, NoSymbol,                U27E8,                U27EA, NoSymbol, NoSymbol ] };
     key <AE09> { [               9, parenright,         bracketright, NoSymbol,                U27E9,                U27EB, NoSymbol, NoSymbol ] };
     key <AE10> { [               0,      equal,           braceright, NoSymbol,             division,                U2205, NoSymbol, NoSymbol ] };
-    key <AE11> { [          ssharp,   question,            backslash, NoSymbol,             notequal,                U00AC, NoSymbol, NoSymbol ] };
+    key <AE11> { [          ssharp,   question,            backslash, NoSymbol,             notequal,              notsign, NoSymbol, NoSymbol ] };
     key <AE12> { [      dead_acute, dead_grave,        dead_abovedot, NoSymbol,             sterling,                U035C, NoSymbol, NoSymbol ] };
 
     // second row
@@ -197,8 +197,8 @@ xkb_symbols "e2" {
     // one key less: assign bar, less and greater to other keys
     key.type[Group1] = "EIGHT_LEVEL";
     key <TLDE> { [ dead_circumflex,   degree,        bar, NoSymbol,      NoSymbol, NoSymbol, NoSymbol, NoSymbol ] };
-    key <AE02> { [               2, quotedbl,       less, NoSymbol,       onehalf,    U00A6, NoSymbol, NoSymbol ] };
-    key <AE03> { [               3,  section,    greater, NoSymbol, threequarters,    U00B6, NoSymbol, NoSymbol ] };
+    key <AE02> { [               2, quotedbl,       less, NoSymbol,       onehalf,brokenbar, NoSymbol, NoSymbol ] };
+    key <AE03> { [               3,  section,    greater, NoSymbol, threequarters,paragraph, NoSymbol, NoSymbol ] };
     key <AD12> { [            plus, asterisk, asciitilde, NoSymbol,      multiply,    U2052, NoSymbol, NoSymbol ] };
 
     // if E2 is used on a 105-key keyboard
