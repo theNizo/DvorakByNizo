@@ -64,3 +64,4 @@ xkb_symbols "dvorak" {
     include "shift(both_capslock)"
     include "level3(ralt_switch)"
 };
+

@@ -296,14 +296,11 @@ fi
 
 # Building file
 echo "${text[11]}"
-touch de
-# First should override, if it already exists, the other ones should append
-cat before > de
-cat dbn-standalone >> de
-cat after >> de
+cat before dbn-standalone after > dbn-build
+# Install file (this has to be seperate)
+sudo cp dbn-build /usr/share/X11/xkb/symbols
 
-# Install file
-sudo cp de /usr/share/X11/xkb/symbols
+#sudo cat before dbn-standalone after > /usr/share/X11/xkb/symbols/de
 echo
 echo "==========="
 echo "${text[12]}"
