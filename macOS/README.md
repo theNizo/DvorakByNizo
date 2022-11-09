@@ -1,3 +1,5 @@
+[english instructions here](README.english.md)
+
 # Installation auf macOS
 
 Es ist sehr einfach, ich erklär's trotzdem.
@@ -10,7 +12,7 @@ Die .dmg öffnen, "Keyboard installer" von dort aus starten, Datei auf den Text 
 
 **!! BEI "USER" IST DAS LAYOUT NICHT AUF DEM ANMELDEBILDSCHIRM VERFÜGBAR !!**
 
-![Erklärung in Bildform](img/3-macos.png)
+![Erklärung in Bildform](../img/3-macos.png)
 
 ## Layout einstellen
 

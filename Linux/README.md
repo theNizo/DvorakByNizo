@@ -1,4 +1,6 @@
-## Installation auf Linux
+[english instructions here](README.english.md)
+
+# Installation auf Linux
 
 Das Layout ersetzt Dvorak Type II, welches als "German (Dvorak)" genannt wird.
 

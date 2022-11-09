@@ -1,3 +1,5 @@
+[english instructions here](README.english.md)
+
 Aufgrund des AltGr Layers nicht [damit](https://github.com/kentonv/dvorak-qwerty) kompatibel.
 
 # Installation auf Windows

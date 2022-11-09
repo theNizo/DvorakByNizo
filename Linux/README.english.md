@@ -1,3 +1,5 @@
+[Deutsche Anleitung hier](README.md)
+
 # Install on Linux
 
 The layout replaces Dvorak Type II, which shows up as "German (Dvorak)".

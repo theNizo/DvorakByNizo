@@ -1,3 +1,5 @@
+[Deutsche Anleitung hier](README.md)
+
 # Installation on macOS
 
 It is very straightforward, I'll explain anyway.
@@ -10,7 +12,7 @@ Open the .dmg, start "Keyboard installer" from there. Pull the file to the text 
 
 **!! WITH "USER", THE LAYOUT IS NOT AVAILABLE ON THE LOGIN SCREEN !!**
 
-![Explanation in visual format](img/3-macos.png)
+![Explanation in visual format](../img/3-macos.png)
 
 ## Set layout
 
