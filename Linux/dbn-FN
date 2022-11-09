@@ -68,6 +68,7 @@ xkb_symbols "dvorak" {
 
     //key.type[Group1] = "EIGHT_LEVEL";
     key <BKSL> { [ minus, underscore ] };
+    key <SPCE> { [ Space, Space, Control ] };
 
     include "shift(both_capslock)"
     include "level3(caps_switch)"
