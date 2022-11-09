@@ -15,7 +15,7 @@ wget https://raw.githubusercontent.com/theNizo/DvorakByNizo-German/master/dbn-in
 4. Layout einstellen (per GUI, oder mit `setxkbmap de -variant  dvorak` unter X.org)
 5. (Falls Fn unter Gnome): Gnome Tweaks (`gnome-tweaks`) -> Tastatur & Maus -> Zusätzliche Layout Optionen: 3. Layer - Caps; 5. Layer - AltGr
 
-**Automatisierung**
+## Automatisierung
 
 Das Skript läuft ohne nachzufragen durch, wenn es 3 Argumente bekommt. Diese lauten wie folgt:
 
