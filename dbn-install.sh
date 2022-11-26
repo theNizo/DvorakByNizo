@@ -298,7 +298,7 @@ fi
 echo "${text[11]}"
 cat before dbn-standalone after > dbn-build
 # Install file (this has to be seperate)
-sudo cp dbn-build /usr/share/X11/xkb/symbols
+sudo cp dbn-build /usr/share/X11/xkb/symbols/de
 
 #sudo cat before dbn-standalone after > /usr/share/X11/xkb/symbols/de
 echo
