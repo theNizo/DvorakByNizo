@@ -32,9 +32,8 @@ German Dvorak done properly
 
 * Nahe an der englischen Version - keine große Umstellung nötig
 * viele Sonderzeichen einfach zu erreichen
-* Optionaler Fn Layer
-* Möglichkeit für einhändiges Kopieren, Ausschneiden und Einfügen (nicht überall verfügbar)
-* Bonus: `Å` für Dialekte
+* Optionaler Fn Layer (kann je nach Gerät mit QMK besser gelöst werden)
+* Bonus: `Å` und `ℓ`, gedacht für Dialekte
 
 # Welche Tools/Software wurde(n) verwendet?
 

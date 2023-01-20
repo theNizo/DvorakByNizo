@@ -33,9 +33,8 @@ German Dvorak done properly
 
 * Close to the english version - not much relearning necessary
 * Special characters are easier to reach
-* Optional Fn layer
-* The possibility to copy, cut, and paste with one hand (not available on every platform)
-* Bonus: `Å` for dialects.
+* Optional Fn layer (depending on the machine, you can use QMK for better results)
+* Bonus: `Å` and `ℓ`, meant for dialects
 
 # What tools/software did you use?
 
