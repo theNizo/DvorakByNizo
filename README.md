@@ -11,6 +11,8 @@ German Dvorak done properly
 
 ![AltGr Layer](img/1-alt.png)
 
+(Nicht aktuell - "Meidlinger L" fehlt)
+
 ![Fn Layer (optional)](img/2-fn.png)
 </details>
 

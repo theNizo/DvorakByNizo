@@ -31,7 +31,7 @@ xkb_symbols "dvorak" {
     key <AD07> { [ g, G ] };
     key <AD08> { [ c, C, asciitilde] };
     key <AD09> { [ r, R ] };
-    key <AD10> { [ l, L ] };
+    key <AD10> { [ l, L, U2113 ] };
     key <AD11> { [ slash, question ] };
     key <AD12> { [ apostrophe, quotedbl ] };
 
