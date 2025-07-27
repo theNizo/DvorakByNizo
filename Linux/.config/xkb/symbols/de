@@ -5,7 +5,7 @@
 partial alphanumeric_keys modifier_keys
 xkb_symbols "dvorak" {
 
-    name[Group1]="German (Dvorak)";
+    name[Group1]="German (Dvorak by Nizo)";
 
     key <TLDE> { [ asciicircum, degree ] };
 
@@ -60,8 +60,7 @@ xkb_symbols "dvorak" {
     key <AB10> { [ z, Z ] };
 
     key <BKSL> { [ minus, underscore ] };
-    
+
     include "shift(both_capslock)"
     include "level3(ralt_switch)"
 };
-

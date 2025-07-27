@@ -1,0 +1,4 @@
+! option   = symbols
+  de:dvorak  = +de(dvorak)
+
+! include %S/evdev
